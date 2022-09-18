@@ -61,7 +61,7 @@ p {
     background-color: rgb(54, 53, 53);
 }
 
-
+/* button */
 .toggle-button {
     position: absolute;
     top: 1.3rem;
@@ -73,20 +73,12 @@ p {
     height: 20px;
 }
 
+/* button img */
 .toggle-button .bar {
     height: 3px;
     width: 100%;
     background-color: #FFFF;
     border-radius: 10px;
-}
-
-nav ul li {
-    position: relative;
-}
-
-nav ul ul {
-    position: absolute;
-    width: 100%;
 }
 
 @media (max-width: 650px) {
@@ -99,6 +91,7 @@ nav ul ul {
         display: flex;
     }
 
+    /* links-bar showed when button clicked, are hidden(display:none) */
     .navbar-links {
         display: none;
         width: 100%;
@@ -113,6 +106,8 @@ nav ul ul {
         text-align: center;
     }
 
+
+    /* class that shows the links after toggle clicked. Check js-file  */
     .navbar-links.active {
         display: flex;
     }
