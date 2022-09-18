@@ -23,6 +23,8 @@ p {
 
 /* header */
 
+/* Future: chnage display none to visibility hidden to add animation */
+
 
 .navbar {
     display: flex;
@@ -110,6 +112,7 @@ p {
     /* class that shows the links after toggle clicked. Check js-file  */
     .navbar-links.active {
         display: flex;
+        
     }
 
 }
@@ -153,11 +156,12 @@ h1 {
 }
 
 .price-card {
-    border: 2px solid rgb(58, 58, 238);
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 10px;
     width: 300px;
     height: 300px;
     padding: 20px;
+    background-color: rgba(190, 190, 190, 0.171);
 }
 
 .extra {
