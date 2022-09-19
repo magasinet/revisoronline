@@ -84,6 +84,8 @@ p {
     border-radius: 10px;
 }
 
+
+
 @media (max-width: 650px) {
     .navbar {
         flex-direction: column;
