@@ -67,7 +67,7 @@ p {
 /* button */
 .toggle-button {
     position: absolute;
-    top: 1.3rem;
+    top: 1.5rem;
     right: 2.3rem;
     display: none;
     flex-direction: column;
@@ -115,6 +115,8 @@ p {
     /* class that shows the links after toggle clicked. Check js-file  */
     .navbar-links.active {
         display: flex;
+        animation-name: fade-in;
+        animation-duration: 0.8s;
         
     }
 
@@ -297,3 +299,15 @@ input[type=text], input[type=email], select, textarea {
      
     }
   }
+
+
+/* animation */
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
