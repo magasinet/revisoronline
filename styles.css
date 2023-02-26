@@ -174,13 +174,29 @@ p {
 }
 
 .price-card {
-    border: 2px solid rgb(0, 0, 0);
+    border: 2px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     width: 300px;
-    height: 300px;
+    height: auto;
     padding: 20px;
-    background-color: rgba(190, 190, 190, 0.171);
+    transition: all 0.2s ease-in-out;
+    
 }
+
+.price-card:hover {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    }
+
+.price-card > h3 {
+    color: rgb(0, 191, 255) ;
+    font-size: 2rem;
+}
+    
+    /*
+    rgb(255, 165, 0)
+    rgb(0, 255, 0)
+    */
 
 .extra {
     text-align: center;
@@ -195,11 +211,14 @@ p {
 .price-card li {
     font-size: 1.2rem;
     padding: 5px 4px;
+    list-style-type: none;
+    color: #555;
 }
 
 .price-card .small-text {
     font-size: 1rem;
     padding-top:25px;
+    color: #999;
 }
 
 /* services */
@@ -324,3 +343,5 @@ input[type=text], input[type=email], select, textarea {
         opacity: 1;
     }
 }
+
+
