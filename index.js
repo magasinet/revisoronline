@@ -21,3 +21,12 @@ document.addEventListener('click', (event) => {
         navbarLinks.classList.remove('active');
     }
 });
+
+
+/* show banner-text */
+let bannerText = document.querySelector('.banner-text');
+
+// Wait for 0.5 seconds, then add the 'show' class
+setTimeout(function() {
+    bannerText.classList.add('show');
+  }, 250);
