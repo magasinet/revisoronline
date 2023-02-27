@@ -198,15 +198,7 @@ p {
     rgb(0, 255, 0)
     */
 
-.extra {
-    text-align: center;
-    margin: 10vh auto;
-    border: 2px solid rgb(58, 58, 238);
-    border-radius: 10px;
-    max-width: 500px;
-    height: 100px;
-    padding: 50px;
-}
+
 
 .price-card li {
     font-size: 1.2rem;
@@ -220,6 +212,44 @@ p {
     padding-top:25px;
     color: #999;
 }
+
+/* table price */
+.table-wrapper {
+overflow-x: auto;
+margin-top: 10vh;
+}
+  
+table {
+width: 100%;
+border-collapse: collapse;
+margin: 0 auto;
+max-width: 600px;
+border: 1px solid #ddd;
+}
+
+th, td {
+padding: 10px;
+text-align: left;
+}
+
+th {
+background-color: #eee;
+font-size: 1.4rem;
+}
+
+td {
+border-bottom: 2px solid #ddd;
+font-size: 1.2rem;
+color: #555;
+}
+
+th:last-child, td:last-child {
+text-align: right;
+}
+
+
+
+
 
 /* services */
 
