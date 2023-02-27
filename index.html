@@ -131,17 +131,18 @@
     </div>
 
     <div class="section" id="contact-section">
-        <h2 class="section-header">Kontakt oss</h2>
+        <h2 class="section-header">Kontakta oss</h2>
         <p>Behöver du hjälp med din bokföring eller har du några andra frågor kan du kontakta oss nedan i formuläret.</p>
         
         <div class="container">
-            <form >
+            <form action="https://formspree.io/f/mvonroge"
+            method="POST">
               <div class="row">
                 <div class="col-25">
                   <label for="name">Namn</label>
                 </div>
                 <div class="col-75">
-                  <input type="text" id="name" name="name" placeholder="Ditt namn...">
+                  <input type="text" id="name" name="name" placeholder="Ditt namn..." required>
                 </div>
               </div>
               <div class="row">
@@ -149,7 +150,7 @@
                   <label for="mail">E-post</label>
                 </div>
                 <div class="col-75">
-                  <input type="email" id="mail" name="mail" placeholder="Din e-postadress...">
+                  <input type="email" id="mail" name="mail" placeholder="Din e-postadress..." required>
                 </div>
               </div>
 
@@ -158,7 +159,7 @@
                   <label for="subject">Meddelande</label>
                 </div>
                 <div class="col-75">
-                  <textarea id="subject" name="subject" placeholder="Berätta gärna hur vi kan hjälpa dig..." style="height:200px"></textarea>
+                  <textarea id="subject" name="subject" placeholder="Berätta gärna hur vi kan hjälpa dig..." style="height:200px" required></textarea>
                 </div>
               </div>
               <div class="row">
