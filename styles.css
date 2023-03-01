@@ -426,15 +426,37 @@ input[type=text], input[type=email], select, textarea {
     height: 45px;
     right: -26px;
     background-color: white;
-    background-image: url('img/advice.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-position: center center;
     border: 4px solid #FF9F55;
     top: 15px;
     border-radius: 50%;
     z-index: 1;
   }
 
+  .timeline-container:nth-of-type(1)::after {
+    background-image: url('img/invoice.png'); background-size: 70%;
+  }
+
+  .timeline-container:nth-of-type(2)::after {
+    background-image: url('img/send.png');
+    background-size: 60%;
+  }
+
+  .timeline-container:nth-of-type(3)::after {
+    background-image: url('img/work.png');
+    background-size: 70%;
+  }
+
+  .timeline-container:nth-of-type(4)::after {
+    background-image: url('img/chat.png');
+    background-size: 70%;
+  }
+
+  .timeline-container:nth-of-type(5)::after {
+    background-image: url('img/archive.png');
+    background-size: 60%;
+  }
 
   /* Place the container to the left */
   .timeline-left {
