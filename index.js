@@ -65,7 +65,7 @@ function handleIntersection(entries) {
 // Create a new IntersectionObserver object to observe the offer section
 const observer = new IntersectionObserver(handleIntersection, {
   root: null, // Use the viewport as the root
-  threshold: 0.25 // Trigger the intersection at 50% visibility
+  threshold: 0.1 // Trigger the intersection at 50% visibility
 });
 
 // Observe the offer section with the observer object
