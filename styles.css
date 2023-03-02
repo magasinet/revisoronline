@@ -192,9 +192,13 @@ p {
 
 .offer-item {
     width: 250px;
-
-
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
 }
+
+.offer-item.fade-in-offer {
+    opacity: 1;
+  }
 
 .offer-item img {
     width: 170px;
@@ -208,6 +212,8 @@ p {
 .offer-item p {
     font-size: 1.2rem;
 }
+
+
 
 
 
