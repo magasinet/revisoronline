@@ -164,7 +164,7 @@ p {
 /* prices */
 
 .section {
-    margin: 10vh auto;
+    margin: 20vh auto;
 }
 
 .prices {
@@ -399,21 +399,36 @@ input[type=submit]:hover {
     overflow-x: hidden;
 }
 
-/* The actual timeline (the vertical ruler) */
+/* The actual timeline */
 .timeline {
     position: relative;
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 30px auto;
 }
 
-/* The actual timeline (the vertical ruler) */
+/* Starting circle */
+.timeline::before {
+content: '';
+position: absolute;
+width: 18px;
+height: 18px;
+background-color: rgb(255, 255, 255);
+border-radius: 50%;
+border: 2px solid #FF9F55;
+transform: translateY(-50%);
+z-index: 1;
+left: calc(50% - 11px);
+}
+  
+
+/* The vertical ruler */
 .timeline::after {
     content: '';
     position: absolute;
     width: 6px;
     background-color: rgb(0, 0, 0);
     top: 0;
-    bottom: 0;
+    bottom: -16px;
     left: 50%;
     margin-left: -3px;
     z-index: 0;
@@ -425,7 +440,7 @@ input[type=submit]:hover {
     position: relative;
     background-color: inherit;
     width: 50%;
-
+    top: 30px;
 }
 
 /* The circles on the timeline */
@@ -439,11 +454,12 @@ input[type=submit]:hover {
     background-repeat: no-repeat;
     background-position: center center;
     border: 4px solid #FF9F55;
-    top: 15px;
+    top: 10px;
     border-radius: 50%;
     z-index: 1;
 }
 
+/*Images*/
 .timeline-container:nth-of-type(1)::after {
     background-image: url('img/invoice.png');
     background-size: 70%;
@@ -523,7 +539,7 @@ input[type=submit]:hover {
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
 
     /* Place the timelime to the left */
     .timeline::after {
@@ -543,6 +559,11 @@ input[type=submit]:hover {
         border: medium solid white;
         border-width: 10px 10px 10px 0;
         border-color: transparent white transparent transparent;
+    }
+
+    /* Make sure starting circle are at the same spot */
+    .timeline::before {
+        left: 20px;
     }
 
     /* Make sure all circles are at the same spot */
