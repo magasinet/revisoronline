@@ -173,6 +173,24 @@ p {
     opacity: 0;
 }
 
+.banner-btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: rgb(0, 127, 169);
+    color: #fff;
+    font-size: 1.2rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+    border: 0.5px solid rgba(0, 0, 0, 0.305);
+    transition: background-color 0.2s ease-in-out;
+    margin-top: 2vh;
+}
+
+.banner-btn:hover {
+    background-color: rgb(0, 191, 255);
+  }
+  
 
 /* animation banner text */
 .banner-text.show {
