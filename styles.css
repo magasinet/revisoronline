@@ -198,6 +198,12 @@ p {
     opacity: 1;
 }
 
+@media screen and (max-width: 822px) {
+    .banner-text {
+      width: 80%;
+    }
+  }
+
 
 /* Services section*/
 /* services */
