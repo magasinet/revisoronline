@@ -708,7 +708,11 @@ footer {
 .footer-item > ul > li {
     height: 25px;
     line-height: 25px;
+}
 
+.footer-item > ul > li > a{
+    text-decoration: none;
+    color: #FFFF;
 }
 
 .copyright {
@@ -725,3 +729,11 @@ footer {
     }
   }
 
+
+
+
+.policy-section {
+    margin: 40px;
+    padding: 50px 100px;
+    text-align: center;
+}
