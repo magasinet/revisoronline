@@ -176,7 +176,7 @@ p {
 .banner-btn {
     display: inline-block;
     padding: 10px 15px;
-    background-color: rgb(0, 127, 169);
+    background-color: #da7a31;
     color: #fff;
     font-size: 1.2rem;
     text-align: center;
@@ -188,7 +188,8 @@ p {
 }
 
 .banner-btn:hover {
-    background-color: rgb(0, 191, 255);
+    background-color: #e9ac7e;
+    color: #000000;
   }
   
 
@@ -271,7 +272,7 @@ p {
 }
 
 .price-card>h3 {
-    color: rgb(0, 191, 255);
+    color: #da7a31;
     font-size: 2rem;
 }
 
@@ -601,7 +602,7 @@ left: calc(50% - 11px);
   .contact-info {
     flex-basis: calc(50% - 20px);
     max-width: 400px;
-    background-color: rgb(0, 127, 169);
+    background-color: #da7a31;
     box-sizing: border-box;
     padding: 20px;
     color: white;
