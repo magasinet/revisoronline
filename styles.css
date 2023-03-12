@@ -9,7 +9,21 @@ html {
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 
+header {
+    min-height: 50px;
+}
+
+.page-content {
+    flex: 1;
+}
+
+footer {
+    min-height: 50px;
 }
 
 h1 {
@@ -710,3 +724,4 @@ footer {
       margin: 25px 0; /* add vertical margin */
     }
   }
+
