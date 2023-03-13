@@ -302,11 +302,33 @@ p {
     color: #555;
 }
 
-.price-card .small-text {
-    font-size: 1rem;
-    padding-top: 25px;
-    color: #999;
+.price-card ul {
+    height: 65%; /* for aligning buttons horizontally */
 }
+
+
+.pricecard-btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #da7a31;
+    color: #fff;
+    font-size: 1.2rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+    border: 0.5px solid rgba(0, 0, 0, 0.305);
+    transition: background-color 0.2s ease-in-out;
+    margin-bottom: 10vh;
+    
+}
+
+.pricecard-btn:hover {
+    background-color: #e9ac7e;
+    color: #000000;
+
+  }
+
+
 
 /* table price */
 .table-wrapper {
