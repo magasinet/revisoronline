@@ -562,6 +562,7 @@ left: calc(50% - 11px);
 
   .contact-form > h2, .contact-info > h2 {
     margin-bottom: 5vh;
+    font-size: 1.7rem;
   }
   
   /* Styles for the contact form */
@@ -581,6 +582,7 @@ left: calc(50% - 11px);
     display: block;
     font-weight: bold;
     margin-bottom: 5px;
+    font-size: 1.2rem;
   }
   
   /* Styles for the form inputs */
@@ -592,6 +594,7 @@ left: calc(50% - 11px);
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: none;
+    font-size: 1rem;
   }
   
   /* Styles for the form submit button */
@@ -635,11 +638,12 @@ left: calc(50% - 11px);
   .contact-info > ul > li {
     margin-bottom: 40px;
     display: flex;
+    font-size: 1.2rem;
   }
 
   .contact-info > ul > li img {
-    width: 24px;
-    height: 24px;
+    width: 28px;
+    height: 28px;
     margin-right: 20px;
   }
   
