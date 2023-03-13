@@ -734,6 +734,7 @@ footer {
 
 .policy-section {
     margin: 40px;
-    padding: 50px 100px;
+    padding: 5%;
     text-align: center;
+    background-color: #e8e7e7;
 }
