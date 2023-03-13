@@ -30,6 +30,16 @@ h1 {
     font-size: 3rem;
 }
 
+.section-header {
+    margin: 5vh;
+    font-size: 2rem;
+    padding-top: 10vh;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
 p {
     font-size: 1.5rem;
 }
@@ -39,11 +49,7 @@ p {
     text-align: center;
 }
 
-.section-header {
-    margin: 5vh;
-    font-size: 2rem;
-    padding-top: 10vh;
-}
+
 
 @media (max-width: 500px) {
 
@@ -199,11 +205,12 @@ p {
     border: 0.5px solid rgba(0, 0, 0, 0.305);
     transition: background-color 0.2s ease-in-out;
     margin-top: 2vh;
+    font-weight: bold;
 }
 
 .banner-btn:hover {
-    background-color: #e9ac7e;
-    color: #000000;
+    background-color: #fff;
+    color: #bc5b12;
   }
   
 
@@ -319,12 +326,14 @@ p {
     border: 0.5px solid rgba(0, 0, 0, 0.305);
     transition: background-color 0.2s ease-in-out;
     margin-bottom: 10vh;
-    
+    font-weight: bold;
 }
 
 .pricecard-btn:hover {
-    background-color: #e9ac7e;
-    color: #000000;
+    background-color: #fff;
+    color: #bc5b12;
+    border: 2px solid #bc5b12;
+    
 
   }
 
@@ -334,6 +343,7 @@ p {
 .table-wrapper {
     overflow-x: auto;
     margin-top: 10vh;
+    
 }
 
 table {
@@ -341,7 +351,13 @@ table {
     border-collapse: collapse;
     margin: 0 auto;
     max-width: 600px;
-    border: 1px solid #ddd;
+    border: 2px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease-in-out;
+}
+
+table:hover {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
 }
 
 th,
@@ -508,7 +524,7 @@ left: calc(50% - 11px);
 /* The actual content */
 .timeline-content {
     padding: 20px 30px;
-    background-color: rgb(185, 181, 181);
+    background-color: #eee;
     position: relative;
     border-radius: 6px;
 }
