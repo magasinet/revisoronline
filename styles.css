@@ -136,12 +136,11 @@ p {
     .navbar {
         flex-direction: column;
         align-items: flex-start;
-        padding: 10px 10px 0px;
+        /*padding: 10px 10px 0px;*/
     }
 
     .img-logo{
-        width: 180px;
-        padding-top: 5px;
+        padding-left: 5px;
     }
 
     .toggle-button {
