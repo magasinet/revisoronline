@@ -76,9 +76,7 @@ p {
     z-index: 1000;
 }
 
-.logo {
-    
-}
+
 
 .img-logo{
     width: 200px;
@@ -791,9 +789,11 @@ footer {
 
 
 
-.policy-section {
-    margin: 40px;
-    padding: 5%;
+#policy{
     text-align: center;
     background-color: #e8e7e7;
+}
+
+#policy > p {
+    padding: 2vh;
 }
