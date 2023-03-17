@@ -72,3 +72,23 @@ const observer = new IntersectionObserver(handleIntersection, {
 observer.observe(offerSection);
 
   
+
+/*Cookie banner */
+// Check if the user has accepted the cookie policy
+if (localStorage.getItem("cookiePolicy") !== "accepted") {
+  // If the policy has not been accepted, display the cookie banner
+  document.querySelector(".cookie-banner").style.display = "block";
+}
+
+// When the accept button is clicked, set a cookie and hide the banner
+document.querySelector(".cookie-accept-btn").addEventListener("click", function() {
+  // Set a cookie with a name, value, and expiration date
+  document.cookie = "cookiePolicy=accepted; expires=Fri, 31 Dec 9999 23:59:59 GMT; path=/";
+
+  // Set a local storage item to remember that the policy has been accepted
+  localStorage.setItem("cookiePolicy", "accepted");
+
+  // Hide the cookie banner
+  document.querySelector(".cookie-banner").style.display = "none";
+});
+
