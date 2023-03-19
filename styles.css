@@ -188,9 +188,13 @@ p {
 
 /* Banner */
 
+.banner {
+    height: 95vh;
+}
+
 .banner-img {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/accounting.webp);
-    height: 95vh;
+    height: -webkit-fill-available;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -238,6 +242,7 @@ p {
     .banner-text {
         width: 80%;
     }
+    
 }
 
 
