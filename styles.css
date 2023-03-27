@@ -203,7 +203,7 @@ p {
     justify-content: center;
     align-items: center;
     text-align: center;
-  }
+}
 
 .banner-text {
     color: white;
@@ -242,12 +242,12 @@ p {
 
 @media screen and (max-width: 480px) {
     .banner-text {
-      font-size: 0.8rem; 
-      max-width: 90%; 
-      padding: 0 5px; 
-      line-height: 1.2; 
+        font-size: 0.8rem;
+        max-width: 90%;
+        padding: 0 5px;
+        line-height: 1.2;
     }
-  }
+}
 
 
 
@@ -869,6 +869,24 @@ footer {
 
 
 /* AVDRAG */
-.avdrag-header {
-    font-size: 1.5rem;
+.deduct-section {
+    margin: 50px auto;
+    max-width: 1200px;
+    padding: 20px;
+
+}
+
+.deduct-header {
+    padding: 5px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 768px) {
+    .deduct-section {
+        padding: 10px;
+        max-width: none;
+    }
+
 }
