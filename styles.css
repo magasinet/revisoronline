@@ -873,13 +873,30 @@ footer {
     margin: 50px auto;
     max-width: 1200px;
     padding: 20px;
+}
 
+.deduct-section > h2 {
+    margin-top: 35px;
+}
+
+.deduct-section > p {
+    font-size: 1.4rem;
+    line-height: 1.5;
 }
 
 .deduct-header {
     padding: 5px;
     font-size: 2rem;
     text-align: center;
+}
+
+.deduct-list {
+    margin-left: 50px;
+    line-height: 1.8;    
+}
+
+.deduct-list > li > p {
+    font-size: 1.4rem;
 }
 
 .deduct-links {
