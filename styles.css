@@ -882,6 +882,28 @@ footer {
     text-align: center;
 }
 
+.deduct-links {
+    margin-top: 20px;
+
+}
+
+.deduct-links > ul > li {
+    padding: 10px;
+    font-size: 1.2rem;
+    
+}
+
+.deduct-links > ul > li > a {
+    color: #000000;
+    text-decoration: underline;
+    background-color: #f8f9fb;
+}
+
+.deduct-links > ul > li > a:hover {
+    background-color: #ccced2;
+    padding: 5px;
+}
+
 
 @media screen and (max-width: 768px) {
     .deduct-section {
