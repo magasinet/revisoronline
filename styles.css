@@ -921,6 +921,25 @@ footer {
     padding: 5px;
 }
 
+.infobox-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    
+}
+
+.infobox {
+    background-color: #da7a31;;
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    width: 800px;
+    border: 3px solid black;
+
+}
+
 
 @media screen and (max-width: 768px) {
     .deduct-section {
