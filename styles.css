@@ -879,6 +879,11 @@ footer {
     margin-top: 35px;
 }
 
+.deduct-section > h3 {
+    margin-top: 20px;
+    font-size: 1.4rem;
+}
+
 .deduct-section > p {
     font-size: 1.4rem;
     line-height: 1.5;
