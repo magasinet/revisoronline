@@ -44,6 +44,14 @@ p {
     font-size: 1.5rem;
 }
 
+hr {
+    border: none;
+    height: 1px;
+    background-color: #d3d3d3;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
 .section {
     margin: 5vh auto;
     text-align: center;
