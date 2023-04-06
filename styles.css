@@ -879,7 +879,7 @@ footer {
 /* AVDRAG */
 .deduct-section {
     margin: 50px auto;
-    max-width: 1200px;
+    max-width: 1000px;
     padding: 20px;
 }
 
@@ -912,6 +912,7 @@ footer {
     font-size: 1.4rem;
 }
 
+/*
 .deduct-links {
     margin-top: 20px;
 
@@ -940,7 +941,44 @@ footer {
     align-items: center;
     margin: 50px;
     
+} */
+
+.deduct-links {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f9fb;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
 }
+
+.deduct-links > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.deduct-links > ul > li {
+    margin: 10px 0;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.deduct-links > ul > li > a {
+    color: #000000;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    font-size: 1.2rem;
+}
+
+.deduct-links > ul > li > a:hover {
+    background-color: #ccced2;
+    color: #ffffff;
+}
+
 
 .infobox {
     background-color: #da7a31;;
