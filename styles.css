@@ -884,18 +884,19 @@ footer {
     padding: 20px;
 }
 
-.deduct-section > h2 {
+.deduct-section > h2, .deduct-section > div > h2 {
     margin-top: 35px;
 }
 
-.deduct-section > h3 {
+.deduct-section > h3, .deduct-section > div > h3 {
     margin-top: 20px;
     font-size: 1.4rem;
 }
 
-.deduct-section > p {
-    font-size: 1.4rem;
+.deduct-section > p, .deduct-section > div > p {
+    font-size: 1.3rem;
     line-height: 1.5;
+    
 }
 
 .deduct-header {
@@ -910,7 +911,7 @@ footer {
 }
 
 .deduct-list > li > p {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
 }
 
 
@@ -960,6 +961,10 @@ footer {
     text-align: center;
     max-width: 800px;
     border: 3px solid black;
+}
+
+.deduct-cost {
+    scroll-margin-top: 80px;
 }
 
 .long-url {
