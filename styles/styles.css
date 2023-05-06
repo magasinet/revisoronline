@@ -220,7 +220,7 @@ hr {
     left: 0;
     width: 100%;
     height: 95vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/accounting.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/img/accounting.webp);
     background-size: cover;
     background-position: center;
     z-index: 999;

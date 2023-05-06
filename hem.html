@@ -19,8 +19,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Digitalbok: Redovisningsbyrå som hanterar din bokföring digitalt</title>
   <link rel="icon" type="image/x-icon" href="img/favicon.ico">
-  <link rel="stylesheet" href="styles.css">
-  <script src="index.js" defer></script>
+  <link rel="stylesheet" href="styles/styles.css">
+  <script src="scripts/index.js" defer></script>
   <meta name="description"
     content="Välkommen till Digitalbok, en redovisningsbyrå som erbjuder högkvalitativa och effektiva bokföringstjänster för ditt företag. Vi är specialiserade på digital bokföring, vilket innebär att du kan hantera dina affärstransaktioner och finansiella rapporter på nätet, när som helst och var som helst. Med vår expertis och erfarenhet inom området kan du känna dig trygg med att din bokföring hanteras på ett noggrant och säkert sätt. Kontakta oss idag för att diskutera hur vi kan hjälpa till med dina redovisningsbehov.">
   <meta http-equiv="Content-Security-Policy"
@@ -40,8 +40,8 @@
       <div class="navbar-links">
         <ul>
           <li><a href="#">Hem</a></li>
-          <li><a href="#price-section">Priser</a></li>
-          <li><a href="#contact-section">Kontakt</a></li>
+          <li><a href="#priser">Priser</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
           <li><a href="avdrag.html">Avdrag</a></li>
         </ul>
       </div>
@@ -53,7 +53,7 @@
       <div class="banner-text">
         <h1>Redovisningsbyrå som hanterar din bokföring digitalt</h1>
         <p>Fast pris på din löpande bokföring från 395 kr/mån. Första månaden gratis!</p>
-        <a href="#price-section" class="banner-btn">Läs mer</a>
+        <a href="#priser" class="banner-btn">Läs mer</a>
       </div>
     </div>
 
@@ -90,7 +90,7 @@
       </div>
     </div>
 
-    <div class="section" id="price-section">
+    <div class="section" id="priser">
       <h2 class="section-header">Priser löpande bokföring</h2>
       <div class="prices">
         <div class="price-card">
@@ -103,7 +103,7 @@
             <li>Momsdeklaration</li>
             <li>Arbetsgivardeklaration</li>
           </ul>
-          <a href="#contact-section" class="pricecard-btn">Få första månaden gratis!</a>
+          <a href="#kontakt" class="pricecard-btn">Få första månaden gratis!</a>
         </div>
         <div class="price-card">
           <h2>Small</h2>
@@ -115,7 +115,7 @@
             <li>Momsdeklaration</li>
             <li>Arbetsgivardeklaration</li>
           </ul>
-          <a href="#contact-section" class="pricecard-btn">Få första månaden gratis!</a>
+          <a href="#kontakt" class="pricecard-btn">Få första månaden gratis!</a>
         </div>
         <div class="price-card">
           <h2>Medium</h2>
@@ -128,7 +128,7 @@
             <li>Arbetsgivardeklaration</li>
 
           </ul>
-          <a href="#contact-section" class="pricecard-btn">Få första månaden gratis!</a>
+          <a href="#kontakt" class="pricecard-btn">Få första månaden gratis!</a>
         </div>
         <div class="price-card">
           <h2>Large</h2>
@@ -140,7 +140,7 @@
             <li>Momsdeklaration</li>
             <li>Arbetsgivardeklaration</li>
           </ul>
-          <a href="#contact-section" class="pricecard-btn">Få första månaden gratis!</a>
+          <a href="#kontakt" class="pricecard-btn">Få första månaden gratis!</a>
         </div>
         <div class="price-card">
           <h2>Extra Large</h2>
@@ -153,7 +153,7 @@
             <li>Obegränsade verifikationer</li>
 
           </ul>
-          <a href="#contact-section" class="pricecard-btn">Få första månaden gratis!</a>
+          <a href="#kontakt" class="pricecard-btn">Få första månaden gratis!</a>
         </div>
       </div>
 
@@ -232,7 +232,7 @@
       </div>
     </div>
 
-    <div class="section" id="contact-section">
+    <div class="section" id="kontakt">
       <h2 class="section-header">Kontakta oss</h2>
       <p>Behöver du hjälp med din bokföring eller har du några andra frågor kan du kontakta oss nedan i formuläret.</p>
 
@@ -259,11 +259,11 @@
           <ul>
             <li>
               <img src="img/email.png" alt="Email icon">
-              info@example.com
+              info@digitalbok.se
             </li>
             <li>
               <img src="img/phone-call.png" alt="Phone icon">
-              123-456-7890
+              073 66 88 727
             </li>
             <li>
               <img src="img/location.png" alt="Location icon">
@@ -291,7 +291,7 @@
 
   <div class="cookie-banner">
     <p>Vi använder cookies för att förbättra din upplevelse på vår webbplats. Genom att fortsätta använda vår webbplats
-      accepterar du vår användning av cookies. Läs vår <a href="policy.html">cookiepolicy</a> för att få mer information
+      accepterar du vår användning av cookies. Läs vår <a href="legal/policy.html">cookiepolicy</a> för att få mer information
       om cookies och hur vi använder dem.</p>
     <button class="cookie-accept-btn">Jag accepterar</button>
   </div>
@@ -309,16 +309,16 @@
       <div class="footer-item">
         <h3>Policy</h3>
         <ul>
-          <li><a href="policy.html">Allmänna villkor</a></li>
-          <li><a href="policy.html">Intergritetspolicy</a></li>
+          <li><a href="legal/policy.html">Allmänna villkor</a></li>
+          <li><a href="legal/policy.html">Intergritetspolicy</a></li>
         </ul>
       </div>
 
       <div class="footer-item">
         <h3>Kontakt</h3>
         <ul>
-          <li>email@ffd</li>
-          <li>244355</li>
+          <li>info@digitalbok.se</li>
+          <li>073 66 88 727</li>
         </ul>
       </div>
 
