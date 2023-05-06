@@ -317,7 +317,7 @@ hr {
 /*Price section*/
 
 /* prices */
-#price-section {
+#priser {
     margin: auto 2vh;
 }
 
@@ -504,27 +504,27 @@ td:last-child {
 
 /*Images*/
 .timeline-container:nth-of-type(1)::after {
-    background-image: url('img/invoice.webp');
+    background-image: url('/img/invoice.webp');
     background-size: 70%;
 }
 
 .timeline-container:nth-of-type(2)::after {
-    background-image: url('img/send.webp');
+    background-image: url('/img/send.webp');
     background-size: 60%;
 }
 
 .timeline-container:nth-of-type(3)::after {
-    background-image: url('img/work.webp');
+    background-image: url('/img/work.webp');
     background-size: 70%;
 }
 
 .timeline-container:nth-of-type(4)::after {
-    background-image: url('img/chat.webp');
+    background-image: url('/img/chat.webp');
     background-size: 70%;
 }
 
 .timeline-container:nth-of-type(5)::after {
-    background-image: url('img/archive.png');
+    background-image: url('/img/archive.png');
     background-size: 60%;
 }
 
@@ -625,11 +625,11 @@ td:last-child {
 
 
 /* Contact section */
-#contact-section {
+#kontakt {
     margin: 1vh;
 }
 
-#contact-section>p {
+#kontakt>p {
     text-align: center;
     margin: -4vh auto 0;
     padding-bottom: 3vh;
