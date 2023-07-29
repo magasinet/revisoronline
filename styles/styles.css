@@ -1012,12 +1012,13 @@ footer {
 
 
 
-/* BLOGG */
+/* BLOGG main page */
 
 .blog-section {
     margin: 50px auto;
     max-width: 1000px;
     padding: 20px;
+    font-family: 'Roboto', Arial, sans-serif;
 }
 
 .blog-header {
@@ -1076,4 +1077,74 @@ img {
 .article-card:hover {
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
 }
+
+/*BLOGG post*/
+
+.blog-post {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /*Add to all reding section*/
+    font-family: 'Roboto', Arial, sans-serif;
+  }
   
+  .post-title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .post-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+
+  .post-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .back-link {
+    text-decoration: none;
+    color: #da7a31;
+    font-weight: bold;
+  }
+  
+  .arrow {
+    margin-right: 5px;
+  }
+  
+  .post-date {
+    font-size: 16px;
+    margin-left: 20px;
+  }
+  
+  .post-content > p{
+    font-size: 20px;
+    line-height: 1.5;
+  }
+
+  .post-content > h2{
+    margin: 25px 0 20px;
+  }
+
+
+/* Media query for small screens */
+@media screen and (max-width: 768px) {
+    .post-part {
+        flex-direction: column;
+        align-items: flex-start;
+    
+    }
+    
+    .back-link {
+        margin-bottom: 10px;
+      }
+  }
