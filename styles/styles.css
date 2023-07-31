@@ -90,7 +90,7 @@ hr {
 .img-logo {
     width: 200px;
     height: auto;
-    padding: 14px 0 5px;
+    padding: 14px 0 0;
 }
 
 .navbar-links ul {
@@ -106,7 +106,7 @@ hr {
     color: #FFFF;
     font-size: 1.5rem;
     display: block;
-    padding: 1.2rem 2rem;
+    padding: 1.3rem 2rem;
 }
 
 .navbar-links li:hover {
@@ -1082,7 +1082,7 @@ img {
 
 .blog-post {
     max-width: 1000px;
-    margin: 50px auto;
+    margin: 50px auto -50px;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
