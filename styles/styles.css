@@ -1027,14 +1027,30 @@ footer {
     text-align: center;
 }
 
+.blog-section > h2 {
+    font-size: 1.6rem;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
 .blog-section > p{
     font-size: 1.3rem;
     line-height: 1.5;
 }
 
+
+.blog-list {
+    margin-left: 50px;
+    line-height: 1.8;    
+}
+
+.blog-list > li > p {
+    font-size: 1.3rem;
+}
+
 .articles {
     display: flex;
-    
+    justify-content: center;
     flex-wrap: wrap;
     gap: 50px;
 }
@@ -1069,6 +1085,7 @@ img {
     color: #007bff;
     font-weight: bold;
     cursor: pointer;
+    font-size: 20px;
 }
 
 .read-more:hover {
@@ -1083,7 +1100,7 @@ img {
 .blog-post {
     max-width: 1000px;
     margin: 50px auto -50px;
-    padding: 20px;
+    padding: 20px 20px 50px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     /*Add to all reding section*/
@@ -1091,8 +1108,8 @@ img {
   }
   
   .post-title {
-    font-size: 2rem;
-    margin-bottom: 10px;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
     text-align: center;
   }
   
@@ -1132,8 +1149,23 @@ img {
   }
 
   .post-content > h2{
-    margin: 25px 0 20px;
+    margin: 30px 0 10px;
   }
+
+#kontakt-blog {
+    margin: 1vh;
+    font-family: 'Roboto', Arial, sans-serif;
+
+}
+
+#kontakt-blog > p {
+    text-align: center;
+    margin: -4vh auto 0;
+    padding-bottom: 3vh;
+    max-width: 900px;
+}
+
+
 
 
 /* Media query for small screens */
