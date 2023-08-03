@@ -4,67 +4,77 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
 
 
 <url>
   <loc>https://digitalbok.se/</loc>
-  <lastmod>2023-05-06T17:52:35+00:00</lastmod>
+  <lastmod>2023-08-03T12:59:33+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://digitalbok.se/avdrag.html</loc>
-  <lastmod>2023-05-06T17:52:35+00:00</lastmod>
+  <lastmod>2023-08-03T12:59:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://digitalbok.se/blogg.html</loc>
+  <lastmod>2023-08-03T12:59:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://digitalbok.se/legal/policy.html</loc>
-  <lastmod>2023-05-06T17:52:35+00:00</lastmod>
+  <lastmod>2023-08-03T12:59:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://digitalbok.se/index.html</loc>
-  <lastmod>2023-05-06T17:52:35+00:00</lastmod>
+  <lastmod>2023-08-03T12:59:33+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://digitalbok.se/avdragsgilla-kostnader/bilkostnader.html</loc>
-  <lastmod>2023-05-06T17:52:35+00:00</lastmod>
+  <lastmod>2023-08-03T12:59:33+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://digitalbok.se/avdragsgilla-kostnader/elektronik.html</loc>
-  <lastmod>2023-05-06T17:52:35+00:00</lastmod>
+  <lastmod>2023-08-03T12:59:33+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://digitalbok.se/avdragsgilla-kostnader/finansiella-kostnader.html</loc>
-  <lastmod>2023-05-06T17:52:35+00:00</lastmod>
+  <lastmod>2023-08-03T12:59:33+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://digitalbok.se/avdragsgilla-kostnader/lokal.html</loc>
-  <lastmod>2023-05-06T17:52:35+00:00</lastmod>
+  <lastmod>2023-08-03T12:59:33+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://digitalbok.se/avdragsgilla-kostnader/material.html</loc>
-  <lastmod>2023-05-06T17:52:35+00:00</lastmod>
+  <lastmod>2023-08-03T12:59:33+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://digitalbok.se/avdragsgilla-kostnader/representation.html</loc>
-  <lastmod>2023-05-06T17:52:35+00:00</lastmod>
+  <lastmod>2023-08-03T12:59:33+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://digitalbok.se/avdragsgilla-kostnader/personalkostnader.html</loc>
-  <lastmod>2023-05-06T17:52:35+00:00</lastmod>
+  <lastmod>2023-08-03T12:59:33+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://digitalbok.se/avdragsgilla-kostnader/%C3%B6vriga-kostnader.html</loc>
-  <lastmod>2023-05-06T17:52:35+00:00</lastmod>
+  <lastmod>2023-08-03T12:59:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://digitalbok.se/artiklar/aktiebolag-eller-enskild-firma.html</loc>
+  <lastmod>2023-08-03T12:59:33+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
