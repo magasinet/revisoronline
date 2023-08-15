@@ -1179,4 +1179,8 @@ img {
     .back-link {
         margin-bottom: 10px;
       }
+
+    .post-title {
+        font-size: 2rem;
+    }
   }
