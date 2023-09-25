@@ -1152,6 +1152,15 @@ img {
     margin: 30px 0 10px;
   }
 
+  .post-list {
+    margin-left: 50px;
+    line-height: 1.8;    
+}
+
+.post-list > li > p {
+    font-size: 20px;
+}
+
 #kontakt-blog {
     margin: 1vh;
     font-family: 'Roboto', Arial, sans-serif;
