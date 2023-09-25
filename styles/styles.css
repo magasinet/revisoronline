@@ -1192,4 +1192,7 @@ img {
     .post-title {
         font-size: 2rem;
     }
+    .post-list {
+        margin-left: 30px;    
+    }
   }
