@@ -280,6 +280,11 @@ hr {
 
 /* Services section*/
 /* services */
+
+#offer-section {
+    background-color: #f2f2f2;
+}
+
 .services {
     display: flex;
     flex-wrap: wrap;
@@ -396,6 +401,7 @@ hr {
 .table-wrapper {
     overflow-x: auto;
     margin-top: 10vh;
+ 
 
 }
 
@@ -404,7 +410,7 @@ table {
     border-collapse: collapse;
     margin: 0 auto;
     max-width: 600px;
-    border: 2px solid #ccc;
+    border: 2px solid #000;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: all 0.2s ease-in-out;
 }
@@ -420,19 +426,26 @@ td {
 }
 
 th {
-    background-color: #eee;
+    background-color: #000;
     font-size: 1.4rem;
+    color: #fff;
+    border-bottom: 2px solid #222;
 }
+
 
 td {
     border-bottom: 2px solid #ddd;
     font-size: 1.2rem;
-    color: #555;
+    color: #333;
 }
 
 th:last-child,
 td:last-child {
     text-align: right;
+}
+
+.orange {
+    color: #bc5b12;  /* Muted blue color */
 }
 
 
@@ -442,12 +455,13 @@ td:last-child {
 
 .about-us {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
     text-align: center;
     padding: 20px;
+    background-color: #f2f2f2;
 }
 
 .about-content {
