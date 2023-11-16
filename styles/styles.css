@@ -1155,6 +1155,7 @@ img {
   .post-content > h3{
     margin: 20px 0 0px;
     font-size: 1.3rem;
+    font-weight: 600;
   }
 
   .post-list {
