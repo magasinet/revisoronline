@@ -282,7 +282,7 @@ hr {
 /* services */
 
 #offer-section {
-    background-color: #f2f2f2;
+    
 }
 
 .services {
@@ -434,7 +434,7 @@ th {
 
 
 td {
-    border-bottom: 2px solid #ddd;
+    border-bottom: 2px solid #767474;
     font-size: 1.2rem;
     color: #333;
 }
@@ -445,7 +445,8 @@ td:last-child {
 }
 
 .orange {
-    color: #bc5b12;  /* Muted blue color */
+    color: #da7a31;  /* Muted blue color */
+    font-weight: bold;
 }
 
 
@@ -453,7 +454,7 @@ td:last-child {
 
 /* ABOUT US */
 
-.about-us {
+#about-us {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -475,7 +476,7 @@ td:last-child {
     margin-bottom: 20px;
 }
 
-.about {
+.about-text {
     font-size: 18px;
     color: #666;
     line-height: 1.6;
