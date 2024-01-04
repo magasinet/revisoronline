@@ -145,7 +145,7 @@ hr {
   
 
 
-@media (max-width: 767px) {
+@media (max-width: 1061px) {
     .navbar {
         flex-direction: column;
         align-items: flex-start;
@@ -280,6 +280,11 @@ hr {
 
 /* Services section*/
 /* services */
+
+#offer-section {
+    
+}
+
 .services {
     display: flex;
     flex-wrap: wrap;
@@ -396,6 +401,7 @@ hr {
 .table-wrapper {
     overflow-x: auto;
     margin-top: 10vh;
+ 
 
 }
 
@@ -404,7 +410,7 @@ table {
     border-collapse: collapse;
     margin: 0 auto;
     max-width: 600px;
-    border: 2px solid #ccc;
+    border: 2px solid #000;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: all 0.2s ease-in-out;
 }
@@ -420,19 +426,68 @@ td {
 }
 
 th {
-    background-color: #eee;
+    background-color: #000;
     font-size: 1.4rem;
+    color: #fff;
+    border-bottom: 2px solid #222;
 }
 
+
 td {
-    border-bottom: 2px solid #ddd;
+    border-bottom: 2px solid #767474;
     font-size: 1.2rem;
-    color: #555;
+    color: #333;
 }
 
 th:last-child,
 td:last-child {
     text-align: right;
+}
+
+.orange {
+    color: #da7a31;  /* Muted blue color */
+    font-weight: bold;
+}
+
+
+
+
+/* ABOUT US */
+
+#om-oss {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+.about-content {
+    max-width: 600px;
+}
+
+#about-us-title {
+    font-size: 25px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about-text {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+
+
+.about-img img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 50%;
 }
 
 
@@ -625,6 +680,7 @@ td:last-child {
         left: 0%;
     }
 }
+
 
 
 
