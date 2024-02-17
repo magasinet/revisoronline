@@ -1223,6 +1223,23 @@ img {
     font-size: 20px;
 }
 
+
+.blogpost-list {
+    line-height: 1.8;
+    text-align: center;
+    list-style-type: none;
+}
+
+
+
+.blogpost-list > li > p {
+    font-size: 20px;
+    margin: 5px;
+    
+    
+    
+}
+
 #kontakt-blog {
     margin: 1vh;
     font-family: 'Roboto', Arial, sans-serif;
