@@ -141,6 +141,13 @@ hr {
     border-radius: 10px;
 }
 
+.flag-icon {
+    width: 20px; /* Adjust width as needed */
+    height: auto; /* Keeps the aspect ratio of the flag */
+    vertical-align: middle; /* Aligns flag with text if present */
+}
+
+
 
   
 
