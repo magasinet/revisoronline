@@ -14,328 +14,487 @@
 
     gtag('config', 'G-MSZ034C6CV');
   </script>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Digitalbok: Redovisningsbyrå som hanterar din bokföring digitalt</title>
-  <link rel="icon" type="image/x-icon" href="img/favicon.ico">
-  <link rel="stylesheet" href="styles/styles.css">
-  <script src="scripts/index.js" defer></script>
-  <meta name="description"
-    content="Välkommen till Digitalbok, en redovisningsbyrå som hanterar din bokföring digitalt. Med vår expertis och erfarenhet inom området kan du känna dig trygg med att din bokföring hanteras på ett noggrant och säkert sätt. Kontakta oss idag för att diskutera hur vi kan hjälpa till med dina redovisningsbehov.">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Redovisningsbyrå som hanterar din bokföring digitalt | Digitalbok</title>
+  <meta content="Välkommen till Digitalbok, en redovisningsbyrå som hanterar din bokföring digitalt. Med vår expertis och erfarenhet inom redovisning kan du känna dig trygg med att din bokföring hanteras på ett noggrant och säkert sätt. Kontakta oss idag för att diskutera hur vi kan hjälpa till med dina redovisningsbehov." name="description">
+  <!-- <meta content="" name="keywords"> -->
   <meta http-equiv="Content-Security-Policy"
-    content="default-src 'self'; script-src 'self' https://*.googletagmanager.com https://www.google-analytics.com https://www.googletagmanager.com https://www.google.com https://www.gstatic.com; img-src 'self' data: https://www.google-analytics.com https://*.analytics.google.com https://*.g.doubleclick.net https://*.google.com https://*.google.com https://*.googletagmanager.com https://*.google-analytics.com https://www.google.com https://www.gstatic.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://www.google-analytics.com https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://*.g.doubleclick.net https://*.google.com https://*.google.com https://www.google.com https://www.gstatic.com; object-src 'none'; frame-src 'self' https://www.google.com;">
+  content="default-src 'self'; script-src 'self' https://*.googletagmanager.com https://www.google-analytics.com https://www.googletagmanager.com https://www.google.com https://www.gstatic.com; img-src 'self' data: https://www.google-analytics.com https://*.analytics.google.com https://*.g.doubleclick.net https://*.google.com https://*.google.com https://*.googletagmanager.com https://*.google-analytics.com https://www.google.com https://www.gstatic.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://www.google-analytics.com https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://*.g.doubleclick.net https://*.google.com https://*.google.com https://www.google.com https://www.gstatic.com; object-src 'none'; frame-src 'self' https://www.google.com;">
 
+  <!-- Favicons -->
+  <link href="/assets/img/logo.png" rel="icon">
+  <link href="/assets/img/logo.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="/assets/css/main.css" rel="stylesheet">
 </head>
 
-<body>
-  <header>
-    <div class="navbar">
-      <div class="logo"><a href="#"><img src="img/logo.webp" alt="Logo" class="img-logo"></a></div>
-      <button class="toggle-button" aria-expanded="false">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </button>
-      <div class="navbar-links">
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="/assets/img/logo.png" alt="logo">
+        <h1 class="sitename">DIGITALBOK</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#">Hem</a></li>
-          <li><a href="#priser">Priser</a></li>
-          <li><a href="#om-oss">Om oss</a></li>
-          <li><a href="#kontakt">Kontakt</a></li>
+          <li><a href="index.html" class="active">Hem<br></a></li>
+          <li><a href="om-oss.html">Om oss</a></li>
+          <li><a href="vara-tjanster.html">Våra tjänster</a></li>
+          <li><a href="priser.html">Priser</a></li>
           <li><a href="avdrag.html">Avdrag</a></li>
           <li><a href="blogg.html">Blogg</a></li>
-          <li> <a href="/en/index.html">
-            <img src="/img/united-kingdom.webp" alt="English" class="flag-icon">
-        </a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+          <li><a href="en/index.html">
+            <img src="/assets/img/united-kingdom.webp" alt="English" class="flag-icon"></a></li>
         </ul>
-      </div>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
 
     </div>
   </header>
 
-  <div class="page-content">
-    <div class="banner">
-      <div class="banner-text">
-        <h1>Redovisningsbyrå som hanterar din bokföring digitalt</h1>
-        <p>Fast pris på din löpande bokföring från 395 kr/mån.</p>
-        <a href="#priser" class="banner-btn">Läs mer</a>
-      </div>
-    </div>
+  <main class="main">
 
-    <div class="section" id="offer-section">
-      <h2 class="section-header">Vi erbjuder ert företag:</h2>
-      <div class="services">
-        <div class="offer-item">
-          <img src="img/accounting-icon.webp" alt="redovisning">
-          <h3>Bokföring</h3>
-          <p>Vi bokför alla affärshändelser i ditt företag löpande. Vi stämmer av bokföringen och lämnar
-            deklarationer i tid.</p>
-        </div>
-        <div class="offer-item">
-          <img src="img/financial-presentation.webp" alt="rapporter">
-          <h3>Rapporter</h3>
-          <p>Vi erbjuder finansiella rapporter så att du får en bild på företagets ekonomiska ställning.
-          </p>
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
 
-        </div>
-        <div class="offer-item">
-          <img src="img/advice.webp" alt="rådgivning">
-          <h3>Rådgivning</h3>
-          <p>Med en löpande bokföring och rapportering erbjuder vi dig rådgivning. Det finns alltid förbättringar som
-            kan göras för att utveckla företaget framåt.</p>
+      <img src="/assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
 
-        </div>
-        <div class="offer-item">
-          <img src="img/world-grid.webp" alt="online">
-          <h3>Digitalt</h3>
-          <p>Med dagens teknologi kan allt hanteras digitalt. Alla affärshändelser kan skannas på molnet säkert och
-          bokföringen kan sparas digitalt. </p>
-        </div>
-
-      </div>
-    </div>
-
-    <div class="section" id="priser">
-      <h2 class="section-header">Priser löpande bokföring</h2>
-      <div class="prices">
-        <div class="price-card">
-          <h2>Small</h2>
-          <h3>395 kr/mån</h3>
-          <ul>
-            <li>Omsättning: 0 - 500 000 kr</li>
-            <li>20 verifikationer/mån</li>
-            <li>1 lön/mån</li>
-            <li>Momsdeklaration</li>
-            <li>Arbetsgivardeklaration</li>
-          </ul>
-          <a href="#kontakt" class="pricecard-btn">Kontakta oss!</a>
-        </div>
-        <div class="price-card">
-          <h2>Medium</h2>
-          <h3>695 kr/mån</h3>
-          <ul>
-            <li>Omsättning: 500 000 - 1000 000 kr</li>
-            <li>40 verifikationer/mån</li>
-            <li>2 löner/mån</li>
-            <li>Momsdeklaration</li>
-            <li>Arbetsgivardeklaration</li>
-          </ul>
-          <a href="#kontakt" class="pricecard-btn">Kontakta oss!</a>
-        </div>
-        <div class="price-card">
-          <h2>Large</h2>
-          <h3>995 kr/mån</h3>
-          <ul>
-            <li>Omsättning: 1 000 000 - 3 000 000 kr</li>
-            <li>80 verifikationer/mån</li>
-            <li>4 löner/mån</li>
-            <li>Momsdeklaration</li>
-            <li>Arbetsgivardeklaration</li>
-          </ul>
-          <a href="#kontakt" class="pricecard-btn">Kontakta oss!</a>
-        </div>
-        <div class="price-card">
-          <h2>Extra Large</h2>
-          <h3>fr. 1495 kr/mån</h3>
-          <ul>
-            <li>Omsättning: + 3 000 000 kr</li>
-            <li>Obegränsade löner</li>
-            <li>Momsdeklaration</li>
-            <li>Arbetsgivardeklaration</li>
-            <li>Obegränsade verifikationer</li>
-
-          </ul>
-          <a href="#kontakt" class="pricecard-btn">Kontakta oss!</a>
-        </div>
-      </div>
-
-      <div class="table-wrapper">
-        <table>
-          <thead>
-            <tr>
-              <th>Tilläggstjänster</th>
-              <th>Pris</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Inkomstdeklaration/bokslut</td>
-              <td class="orange">fr. 995 kr / år</td>
-            </tr>
-            <tr>
-              <td>Årsredovisning</td>
-              <td class="orange">fr. 1 495 kr / år</td>
-            </tr>
-            <tr>
-              <td>Utdelning K10</td>
-              <td class="orange">495 kr / år</td>
-            </tr>
-            <tr>
-              <td>Starta företag</td>
-              <td class="orange">995 kr</td>
-            </tr>
-            <tr>
-              <td>Övriga tjänster</td>
-              <td class="orange">495 kr / h</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-
-    <div class="section" id="om-oss">
-      <h2 class="section-header">Om oss</h2>
-      <div class="about-img">
-        <img src="img/about-us.webp" alt="om oss">
-      </div>
-      <div class="about-content">
-          <h2 id="about-us-title">Ali - Redovisningsekonom & Grundare</h2>
-          <p class="about-text">Vi på Digitalbok kombinerar våra djupa ekonomiska kunskaper och erfarenheter för att stötta ert företag med bokföring och redovisning. Vi erbjuder er konkurrenskraftiga priser och skräddarsydda lösningar genom att förena traditionella ekonomiska principer med den senaste teknologin.</p>
-          <p class="about-text">Vi värderar integritet och professionalism i varje steg, från bokföring till skatterådgivning. Genom innovativa verktyg säkerställer vi effektivitet och noggrannhet i varje projekt.</p>
-          <p class="about-text">Vi sätter alltid kunden i centrum genom att leverera högkvalitativ service. Oavsett storlek eller fas på din verksamhet, är vi här för att stödja dina ekonomiska mål.</p>
-      </div>
-
-     
-    </div>
-
-    <div class="section" id="timeline-section">
-      <h2 class="section-header">Hur arbetsprocessen ser ut</h2>
-      <div class="timeline">
-        <div class="timeline-container timeline-left">
-          <div class="timeline-content">
-            <h3>1. Underlag</h3>
-            <p>Du samlar ihop företagets fakturor, kvitton och övriga dokument varje månad. </p>
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-4">
+            <h1 data-aos="fade-up">Redovisningsbyrå som hanterar din bokföring digitalt</h1>
+            <blockquote data-aos="fade-up" data-aos-delay="100">
+              <p>Vi gör det enkelt för företagare.</p>
+            </blockquote>
+            <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
+              <a href="#why-us" class="btn-get-started">Läs Mer</a>
+          <!--    <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>-->
+            </div>
           </div>
         </div>
-        <div class="timeline-container timeline-right">
-          <div class="timeline-content">
-            <h3>2. Skicka</h3>
-            <p>Underlagen skickar du via en app som vi jobbar med. På appen kan du direkt ladda upp filer eller ta bilder.</p>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- Why Us Section -->
+    <section id="why-us" class="why-us section">
+
+      <div class="container">
+
+        <div class="row g-0">
+
+          <div class="col-xl-5 img-bg" data-aos="fade-up" data-aos-delay="100">
+            <img src="/assets/img/why-us-bg.jpg" alt="">
+          </div>
+
+          <div class="col-xl-7 slides position-relative" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="swiper init-swiper">
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 9000
+                  },
+                  "slidesPerView": "auto",
+                  "centeredSlides": true,
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  },
+                  "navigation": {
+                    "nextEl": ".swiper-button-next",
+                    "prevEl": ".swiper-button-prev"
+                  }
+                }
+              </script>
+              <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                  <div class="item">
+                    <h3 class="mb-3">Moderna redovisningslösningar</h3>
+                    <p>Vi förenklar din vardag med den senaste teknologin. Fakturor importeras automatiskt till bokföringsprogrammet, betalningsfiler kan skapas och exporteras till banken, och kvitton kan enkelt skannas med hjälp av en app.</p>
+                  </div>
+                </div><!-- End slide item -->
+
+                <div class="swiper-slide">
+                  <div class="item">
+                    <h3 class="mb-3">Personlig rådgivning och support</h3>
+                    <p>Vi värdesätter det personliga mötet och finns alltid tillgängliga för att ge dig individuell rådgivning och support. Vi ser till att förstå just ditt företags behov och utmaningar, och arbetar proaktivt för att hjälpa dig att nå dina affärsmål.</p>
+                  </div>
+                </div><!-- End slide item -->
+
+                <div class="swiper-slide">
+                  <div class="item">
+                    <h3 class="mb-3">Konkurrenskraftiga och transparenta priser</h3>
+                    <p>Vi erbjuder konkurrenskraftiga priser och transparent prissättning utan dolda avgifter. Du betalar endast för de tjänster du faktiskt behöver, vilket gör oss till ett kostnadseffektivt val för både små och stora företag.</p>
+                  </div>
+                </div><!-- End slide item -->
+
+                <div class="swiper-slide">
+                  <div class="item">
+                    <h3 class="mb-3">Digitalt och säkert</h3>
+                    <p>Med dagens teknologi kan allt hanteras digitalt. Alla affärshändelser kan skannas på molnet säkert och bokföringen kan sparas digitalt.</p>
+                  </div>
+                </div><!-- End slide item -->
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Why Us Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Våra tjänster</h2>
+        <p>Vi förenklar din ekonomihantering. Nedan kan du se våra populäraste tjänster.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon flex-shrink-0"><i class="bi bi-book" style="color: #f57813;"></i></div>
+            <div>
+              <h4 class="title">Löpande Bokföring</h4>
+              <p class="description">Vi bokför alla affärshändelser i ditt företag löpande och gör avstämningar. Är det något som saknas kontaktar vi dig.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon flex-shrink-0"><i class="bi bi-wallet" style="color: #d90769;"></i></div>
+            <div>
+              <h4 class="title">Lönehantering</h4>
+              <p class="description">Vi hjälper dig med anställda och säkerställer att korrekt lön betalas och redovisas.</p>
+            </div>
+          </div><!-- End Service Item -->
+          <!-- End Service Item -->
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon flex-shrink-0"><i class="bi bi-calendar4-week" style="color: #1335f5;"></i></div>
+            <div>
+              <h4 class="title">Deklarering</h4>
+              <p class="description">Med en löpande bokföring kan vi se till att moms- och arbetsgivardeklarationer lämnas in i tid till skatteverket.</p>
+            </div>
+          </div><!-- End Service Item -->
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon flex-shrink-0"><i class="bi bi-bar-chart" style="color: #15bfbc;"></i></div>
+            <div>
+              <h4 class="title">Rapportering</h4>
+              <p class="description">Efter varje redovisningsperiod skickar vi en resultatrapport och kvittenser från inlämnade deklarationer.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon flex-shrink-0"><i class="bi bi-card-checklist" style="color: #15a04a;"></i></div>
+            <div>
+              <h4 class="title">Årsavslut</h4>
+              <p class="description">Vid slutet på räkenskapsåret kan vi påbörja bokslutsarbetet och skicka in inkomstdeklarationer.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="600">
+            <div class="icon flex-shrink-0"><i class="bi bi-brightness-high" style="color: #f5cf13;"></i></div>
+            <div>
+              <h4 class="title">Rådgivning</h4>
+              <p class="description">Vi hjälper dig att driva ditt företag och försöker hitta förbättringar samt skatteoptimerar.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Call To Action Section -->
+    <section id="call-to-action" class="call-to-action section dark-background">
+
+      <img src="/assets/img/cta-bg.jpg" alt="">
+
+      <div class="container">
+        <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-10">
+            <div class="text-center">
+              <h3>Är du redo att förenkla din vardag?</h3>
+              <p>Vi förstår utmaningarna med att driva företag - från att säkerställa försäljning och kundnöjdhet till att hantera leverantörer, finansiering, marknadsföring, samt redovisning och administration. Vårt mål är att förenkla din vardag. Kontakta oss idag för en kostnadsfri konsultation.</p>
+              <a class="cta-btn" href="kontakt.html">Kontakta oss</a>
+            </div>
           </div>
         </div>
-        <div class="timeline-container timeline-left">
-          <div class="timeline-content">
-            <h3>3. Vi bokför</h3>
-            <p>När underlagen är hos oss, bokför vi alla affärshändelser och ser till att deklarationer lämnas in i tid.</p>
+      </div>
+
+    </section><!-- /Call To Action Section -->
+
+    
+    <!-- Features Section
+    <section id="features" class="features section">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="mb-0">Powerful Features for</h3>
+            <h3>Your Business</h3>
+
+            <div class="row gy-4">
+
+              <div class="col-md-6">
+                <div class="icon-list d-flex">
+                  <i class="bi bi-eye" style="color: #ff8b2c;"></i>
+                  <span>Easy Cart Features</span>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="icon-list d-flex">
+                  <i class="bi bi-infinity" style="color: #5578ff;"></i>
+                  <span>Sit amet consectetur adipisicing</span>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="icon-list d-flex">
+                  <i class="bi bi-mortarboard" style="color: #e80368;"></i>
+                  <span>Ipsum Rerum Explicabo</span>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="icon-list d-flex">
+                  <i class="bi bi-star" style="color: #ffa76e;"></i>
+                  <span>Easy Cart Features</span>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="icon-list d-flex">
+                  <i class="bi bi-x-diamond" style="color: #11dbcf;"></i>
+                  <span>Easy Cart Features</span>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="icon-list d-flex">
+                  <i class="bi bi-camera-video" style="color: #4233ff;"></i>
+                  <span>Sit amet consectetur adipisicing</span>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="icon-list d-flex">
+                  <i class="bi bi-brightness-high" style="color: #29cc61;"></i>
+                  <span>Ipsum Rerum Explicabo</span>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="icon-list d-flex">
+                  <i class="bi bi-activity" style="color: #ff5828;"></i>
+                  <span>Easy Cart Features</span>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="timeline-container timeline-right">
-          <div class="timeline-content">
-            <h3>4. Kommunikation</h3>
-            <p>Är det något som saknas kontaktar vi dig via telefon eller mail. Om allt är i sin ordning gör vi klart arbetet och uppdaterar dig med kvittenser och rapporter.</p>
-          </div>
-        </div>
-        <div class="timeline-container timeline-left">
-          <div class="timeline-content">
-            <h3>5. Spara underlag</h3>
-            <p>Enligt lag måste underlag sparas i 7 år, detta görs i vårt bokföringsprogram.
-            </p>
+          <div class="col-lg-5 position-relative" data-aos="zoom-out" data-aos-delay="200">
+            <div class="phone-wrap">
+              <img src="/assets/img/iphone.png" alt="Image" class="img-fluid">
+            </div>
           </div>
         </div>
 
       </div>
-    </div>
 
+      <div class="details">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+              <h4>Labore Sdio Lidui<br>Bonde Naruto</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam nostrum molestias doloremque quae delectus odit minima corrupti blanditiis quo animi!</p>
+              <a href="#about" class="btn-get-started">Get Started</a>
+            </div>
+          </div>
+        </div>
+      </div>
 
-
-
+    </section>/Features Section -->
+    
   
 
-    <div class="section" id="kontakt">
-      <h2 class="section-header">Kontakta oss</h2>
-      <p>Behöver du hjälp med din bokföring eller har du några andra frågor kan du kontakta oss nedan i formuläret.</p>
+    <!-- Recent Posts Section -->
+    <section id="recent-posts" class="recent-posts section">
 
-      <div class="contact-container">
-        <form class="contact-form" action="https://formspree.io/f/mvonroge" method="POST" autocomplete="off">
-          <h2>Skriv till oss</h2>
-          <div class="form-group">
-            <label for="name">Namn:</label>
-            <input type="text" id="name" name="name" placeholder="Ditt namn..." required>
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Senaste artiklarna</h2>
+
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-5">
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="post-box">
+              <div class="post-img"><img src="/assets/img/blog/kvitto.webp" class="img-fluid" alt="kvitto"></div>
+              <div class="meta">
+                <span class="post-date">1 Juli</span>
+                <span class="post-author"> / Ali Sherifi</span>
+              </div>
+              <h3 class="post-title">Nu slopas kravet på att spara kvitton och pappersfakturor</h3>
+              <p>Från och med idag, den 1 juli 2024, införs nya regler i bokföringslagen som innebär att företag inte längre behöver spara fysiska kvitton...</p>
+              <a href="blogg/slanga-pappersdokument.html" class="readmore stretched-link"><span>Läs Mer</span><i class="bi bi-arrow-right"></i></a>
+            </div>
           </div>
-          <div class="form-group">
-            <label for="email">E-post:</label>
-            <input type="email" id="email" name="email" placeholder="Din e-postadress..." required>
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="post-box">
+              <div class="post-img"><img src="/assets/img/blog/omx.webp" class="img-fluid" alt="omx börsen"></div>
+              <div class="meta">
+                <span class="post-date">19 Februari</span>
+                <span class="post-author"> / Ali Sherifi</span>
+              </div>
+              <h3 class="post-title">Investera på börsen privat eller via aktiebolaget?</h3>
+              <p>Har du ett överskott i ditt aktiebolag, finns det mycket du kan göra med pengarna. Du kan återinvestera det i bolagets verksamhet, göra...</p>
+              <a href="blogg/investera-privat-eller-via-aktiebolag.html" class="readmore stretched-link"><span>Läs Mer</span><i class="bi bi-arrow-right"></i></a>
+            </div>
           </div>
-          <div class="form-group">
-            <label for="message">Meddelande:</label>
-            <textarea id="message" name="message" rows="5" placeholder="Berätta gärna hur vi kan hjälpa dig..."
-              required></textarea>
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="post-box">
+              <div class="post-img"><img src="/assets/img/blog/ne-bilaga.webp" class="img-fluid" alt="ne-bilaga"></div>
+              <div class="meta">
+                <span class="post-date">5 Februari</span>
+                <span class="post-author"> / Ali Sherifi</span>
+              </div>
+              <h3 class="post-title">NE-bilaga - Enskild firma</h3>
+              <p>Inom kort öppnar Skatteverkets E-tjänst för deklarationer. Privatpersoner och enskilda firmor uppmanas att lämna in inkomstdeklaration...</p>
+              <a href="blogg/ne-bilaga.html" class="readmore stretched-link"><span>Läs Mer</span><i class="bi bi-arrow-right"></i></a>
+            </div>
           </div>
-          <button type="submit">Skicka</button>
-        </form>
-        <div class="contact-info">
-          <h2>Kontaktinformation</h2>
-          <ul>
-            <li>
-              <img src="img/email.png" alt="Email icon">
-              info@digitalbok.se
-            </li>
-            <li>
-              <img src="img/phone-call.png" alt="Phone icon">
-              073 66 88 727
-            </li>
-            <li>
-              <img src="img/location.png" alt="Location icon">
-              Stockholm
-            </li>
-            <li>
-              <img src="img/web.png" alt="Location icon">
-              www.digitalbok.se
-            </li>
-          </ul>
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="post-box">
+              <div class="post-img"><img src="/assets/img/blog/bokslut.webp" class="img-fluid" alt="bokslut"></div>
+              <div class="meta">
+                <span class="post-date">29 Januari</span>
+                <span class="post-author"> / Ali Sherifi</span>
+              </div>
+              <h3 class="post-title">Bokslut - avsluta bokföringen på rätt sätt</h3>
+              <p>För många företagare är det tid att avsluta bokföringen för 2023 och det är här bokslutet kommer in i bilden. Vi kommer att undersöka...</p>
+              <a href="blogg/bokslut.html" class="readmore stretched-link"><span>Läs Mer</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Recent Posts Section -->
+
+  </main>
+
+  <footer id="footer" class="footer light-background">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-about">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <span class="sitename">DIGITALBOK</span>
+            </a>
+            <p>Redovisningsbyrå som hanterar din bokföring digitalt. Vi gör det enkelt för företagare. </p>
+            <div class="social-links d-flex mt-4">
+              <a href="https://www.linkedin.com/company/digitalbok/posts/?feedView=all" target="_blank"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Användbara länkar</h4>
+            <ul>
+              <li><a href="#">Hem</a></li>
+              <li><a href="om-oss.html">Om oss</a></li>
+              <li><a href="avdrag.html">Avdrag</a></li>
+              <li><a href="blogg.html">Blogg</a></li>
+              <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Digitalbok</h4>
+            <ul>
+              <p>Registrerad för F-Skatt</p>
+              <p>Momsregistrerad</p>
+              <li><a href="legal/policy.html">Allmäna villkor</a></li>
+              <li><a href="legal/policy.html">Integritetspolicy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+            <h4>Kontakta oss</h4>
+            <p>Åbroddsvägen 45</p>
+            <p>165 70 Stockholm</p>
+            <p class="mt-4"><strong>Telefon:</strong> <a href="tel:010-6410293">010-641 02 93</a></p>
+            <p><strong>E-post:</strong> <a href="mailto:info@digitalbok.se">info@digitalbok.se</a></p>
+          </div>
+
         </div>
       </div>
     </div>
 
-
-
-
-
-
-
-
-
-
-  </div>
-
-  <div class="cookie-banner">
-    <p>Vi använder cookies för att förbättra din upplevelse på vår webbplats. Genom att fortsätta använda vår webbplats
-      accepterar du vår användning av cookies. Läs vår <a href="legal/policy.html">cookiepolicy</a> för att få mer information
-      om cookies och hur vi använder dem.</p>
-    <button class="cookie-accept-btn">Jag accepterar</button>
-  </div>
-
-  <footer>
-    <div class="footer-container">
-      <div class="footer-item">
-        <h3>Digitalbok</h3>
-        <ul>
-          <li>Registrerad för F-Skatt</li>
-          <li>Momsregistrerat</li>
-        </ul>
-      </div>
-
-      <div class="footer-item">
-        <h3>Policy</h3>
-        <ul>
-          <li><a href="legal/policy.html">Allmänna villkor</a></li>
-          <li><a href="legal/policy.html">Intergritetspolicy</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-item">
-        <h3>Kontakt</h3>
-        <ul>
-          <li><a href="mailto:info@digitalbok.se">info@digitalbok.se</a></li>
-          <li><a href="tel:+46736688727">073 66 88 727</a></li>
-        </ul>
-      </div>
-
+    <div class="container copyright text-center">
+      <p>© <span>2024,</span> Digitalbok.</p>
     </div>
-    <p class="copyright">&copy; 2024, Digitalbok.</p>
+
   </footer>
 
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/vendor/php-email-form/validate.js"></script>
+  <script src="/assets/vendor/aos/aos.js"></script>
+  <script src="/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="/assets/js/main.js"></script>
 
 </body>
 

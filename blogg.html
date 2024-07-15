@@ -1,236 +1,606 @@
 <!DOCTYPE html>
 <html lang="sv">
-
 <head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MSZ034C6CV"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'G-MSZ034C6CV');
-  </script>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Digitalbok: Din guide till företagande och ekonomi</title>
-  <link rel="icon" type="image/x-icon" href="img/favicon.ico">
-  <link rel="stylesheet" href="styles/styles.css">
-  <!-- Add to all reading pages -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-  <script src="scripts/index.js" defer></script>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Företagsbloggen - Din guide till företagande| Digitalbok</title>
   <meta name="description"
     content="Upptäck värdefull information om företagande, bokföring, skatteplanering och mer. Vår blogg är din resurs för allt du behöver veta om att driva ett företag eller överväger att starta ett. Lär dig hur du optimerar din verksamhet och få användbara tips för framgång i näringslivet.">
-  <meta http-equiv="Content-Security-Policy"
-    content="default-src 'self'; script-src 'self' https://*.googletagmanager.com https://www.google-analytics.com https://www.googletagmanager.com https://www.google.com https://www.gstatic.com; img-src 'self' data: https://www.google-analytics.com https://*.analytics.google.com https://*.g.doubleclick.net https://*.google.com https://*.google.com https://*.googletagmanager.com https://*.google-analytics.com https://www.google.com https://www.gstatic.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://www.google-analytics.com https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://*.g.doubleclick.net https://*.google.com https://*.google.com https://www.google.com https://www.gstatic.com; object-src 'none'; frame-src 'self' https://www.google.com;">
+    <!-- <meta content="" name="keywords"> -->
+    <!-- pagination does not work...
+    <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self'; script-src 'self' https://*.googletagmanager.com https://www.google-analytics.com https://www.googletagmanager.com https://www.google.com https://www.gstatic.com; img-src 'self' data: https://www.google-analytics.com https://*.analytics.google.com https://*.g.doubleclick.net https://*.google.com https://*.google.com https://*.googletagmanager.com https://*.google-analytics.com https://www.google.com https://www.gstatic.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://www.google-analytics.com https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://*.g.doubleclick.net https://*.google.com https://*.google.com https://www.google.com https://www.gstatic.com; object-src 'none'; frame-src 'self' https://www.google.com;"> -->
+  
+
+  <!-- Favicons -->
+  <link href="/assets/img/logo.png" rel="icon">
+  <link href="/assets/img/logo.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- font-awesome  and Bootstrap 5 cdn -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="/assets/css/main.css" rel="stylesheet">
 
 </head>
 
-<body>
-  <header>
-    <div class="navbar">
-      <div class="logo"><a href="/index.html"><img src="img/logo.webp" alt="Logo" class="img-logo"></a></div>
-      <button class="toggle-button" aria-expanded="false">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </button>
-      <div class="navbar-links">
+<body class="blog-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="/assets/img/logo.png" alt="">
+        <h1 class="sitename">DIGITALBOK</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="/index.html">Hem</a></li>
-          <li><a href="/index.html#priser">Priser</a></li>
-          <li><a href="/index.html#om-oss">Om oss</a></li>
-          <li><a href="/index.html#kontakt">Kontakt</a></li>
-          <li><a href="/avdrag.html">Avdrag</a></li>
-          <li><a href="blogg.html">Blogg</a></li>
+            <li><a href="index.html">Hem<br></a></li>
+            <li><a href="om-oss.html">Om oss</a></li>
+            <li><a href="vara-tjanster.html">Våra tjänster</a></li>
+            <li><a href="priser.html">Priser</a></li>
+            <li><a href="avdrag.html">Avdrag</a></li>
+            <li><a href="blogg.html" class="active">Blogg</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+          <li><a href="en/index.html">
+            <img src="/assets/img/united-kingdom.webp" alt="English" class="flag-icon"></a></li>
         </ul>
-      </div>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
     </div>
   </header>
 
-  <div class="page-content">
-    <div class="blog-section">
-      <h1 class="blog-header">Företagsbloggen</h1>
-      <p>Välkommen till vår företagsblogg för dig som driver ett företag! Utforska värdefull information som hjälper dig att stärka din verksamhet och lyckas som företagare. Här på vår blogg delar vi med oss av vår djupa erfarenhet som redovisningsbyrå, och vi fokuserar på ämnen som ekonomihantering, strategisk tillväxt, och framgångsrik företagsdrift.</p>
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title dark-background" data-aos="fade" style="background-image: url(/assets/img/blog-page-title-bg.jpg);">
+      <div class="container">
+        <h1>Företagsbloggen</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Hem</a></li>
+            <li class="current">Blogg</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+    <div class="container">
+      <div class="row card-container" id="card-container">
+        <div class="col-lg-12">
+          <!-- Blog Posts Section -->
+          <section id="blog-posts" class="blog-posts section">
+            <div class="container">
+              <div class="row gy-4">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12 blog-card" >
+                  <article>
+                    <div class="post-img">
+                      <img src="/assets/img/blog/kvitto.webp" alt="" class="img-fluid">
+                    </div>
+                    <p class="post-category">Redovisning</p>
+                    <h2 class="title">
+                      <a href="blogg/slanga-pappersdokument.html">Nu slopas kravet på att spara kvitton och pappersfakturor</a>
+                    </h2>
+
+                    <div class="d-flex align-items-center">
+                      <img src="/assets/img/profile.webp" alt="author" class="img-fluid post-author-img flex-shrink-0">
+                      <div class="post-meta">
+                        <p class="post-author">Ali Sherifi</p>
+                        <p class="post-date">
+                          <time datetime="2024-07-01">Jul 1, 2024</time>
+                        </p>
+                      </div>
+                    </div>
+
+                  </article>
+                </div><!-- End post list item -->
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12 blog-card" >
+                  <article>
+
+                    <div class="post-img">
+                      <img src="/assets/img/blog/omx.webp" alt="omx börsen" class="img-fluid">
+                    </div>
+
+                    <p class="post-category">Investering</p>
+
+                    <h2 class="title">
+                      <a href="blogg/investera-privat-eller-via-aktiebolag.html">Investera på börsen privat eller via aktiebolaget?</a>
+                    </h2>
+
+                    <div class="d-flex align-items-center">
+                      <img src="/assets/img/profile.webp" alt="author" class="img-fluid post-author-img flex-shrink-0">
+                      <div class="post-meta">
+                        <p class="post-author">Ali Sherifi</p>
+                        <p class="post-date">
+                          <time datetime="2024-02-19">Feb 19, 2024</time>
+                        </p>
+                      </div>
+                    </div>
+
+                  </article>
+                </div><!-- End post list item -->
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12 blog-card" >
+                  <article>
+
+                    <div class="post-img">
+                      <img src="/assets/img/blog/ne-bilaga.webp" alt="ne-bilaga" class="img-fluid">
+                    </div>
+
+                    <p class="post-category">Enskild Firma</p>
+
+                    <h2 class="title">
+                      <a href="blogg/ne-bilaga.html">NE-bilaga - Enskild firma</a>
+                    </h2>
+
+                    <div class="d-flex align-items-center">
+                      <img src="/assets/img/profile.webp" alt="author" class="img-fluid post-author-img flex-shrink-0">
+                      <div class="post-meta">
+                        <p class="post-author">Ali Sherifi</p>
+                        <p class="post-date">
+                          <time datetime="2024-02-05">Feb 5, 2024</time>
+                        </p>
+                      </div>
+                    </div>
+
+                  </article>
+                </div><!-- End post list item -->
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12 blog-card" >
+                  <article>
+
+                    <div class="post-img">
+                      <img src="/assets/img/blog/bokslut.webp" alt="ne-bilaga" class="img-fluid">
+                    </div>
+
+                    <p class="post-category">Redovisning</p>
+
+                    <h2 class="title">
+                      <a href="blogg/bokslut.html">Bokslut - avsluta bokföringen på rätt sätt</a>
+                    </h2>
+
+                    <div class="d-flex align-items-center">
+                      <img src="/assets/img/profile.webp" alt="author" class="img-fluid post-author-img flex-shrink-0">
+                      <div class="post-meta">
+                        <p class="post-author">Ali Sherifi</p>
+                        <p class="post-date">
+                          <time datetime="2024-01-29">Jan 29, 2024</time>
+                        </p>
+                      </div>
+                    </div>
+
+                  </article>
+                </div><!-- End post list item -->
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12 blog-card" >
+                  <article>
+
+                    <div class="post-img">
+                      <img src="/assets/img/blog/julbord.webp" alt="julbord" class="img-fluid">
+                    </div>
+
+                    <p class="post-category">Avdrag</p>
+
+                    <h2 class="title">
+                      <a href="blogg/julbord-och-julfest-avdrag.html">Julbord och julfest avdragsgillt 2023</a>
+                    </h2>
+
+                    <div class="d-flex align-items-center">
+                      <img src="/assets/img/profile.webp" alt="author" class="img-fluid post-author-img flex-shrink-0">
+                      <div class="post-meta">
+                        <p class="post-author">Ali Sherifi</p>
+                        <p class="post-date">
+                          <time datetime="2023-11-27">Nov 27, 2023</time>
+                        </p>
+                      </div>
+                    </div>
+
+                  </article>
+                </div><!-- End post list item -->
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12 blog-card" >
+                  <article>
+
+                    <div class="post-img">
+                      <img src="/assets/img/blog/julgåva.webp" alt="julgåva" class="img-fluid">
+                    </div>
+
+                    <p class="post-category">Avdrag</p>
+
+                    <h2 class="title">
+                      <a href="blogg/julgava-till-anstallda-och-kunder-2023.html">Julgåva till anställda och kunder 2023</a>
+                    </h2>
+
+                    <div class="d-flex align-items-center">
+                      <img src="/assets/img/profile.webp" alt="author" class="img-fluid post-author-img flex-shrink-0">
+                      <div class="post-meta">
+                        <p class="post-author">Ali Sherifi</p>
+                        <p class="post-date">
+                          <time datetime="2023-11-16">Nov 16, 2023</time>
+                        </p>
+                      </div>
+                    </div>
+
+                  </article>
+                </div><!-- End post list item -->
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12 blog-card" >
+                  <article>
+
+                    <div class="post-img">
+                      <img src="/assets/img/blog/cash-register.webp" alt="kassa" class="img-fluid">
+                    </div>
+
+                    <p class="post-category">Företag</p>
+
+                    <h2 class="title">
+                      <a href="blogg/kassaregister.html">Kassaregister - ett krav?</a>
+                    </h2>
+
+                    <div class="d-flex align-items-center">
+                      <img src="/assets/img/profile.webp" alt="author" class="img-fluid post-author-img flex-shrink-0">
+                      <div class="post-meta">
+                        <p class="post-author">Ali Sherifi</p>
+                        <p class="post-date">
+                          <time datetime="2023-11-11">Nov 11, 2023</time>
+                        </p>
+                      </div>
+                    </div>
+
+                  </article>
+                </div><!-- End post list item -->
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12 blog-card" >
+                  <article>
+
+                    <div class="post-img">
+                      <img src="/assets/img/blog/inköp-aktiebolag.webp" alt="avläsa rapport" class="img-fluid">
+                    </div>
+
+                    <p class="post-category">Avdrag Aktiebolag</p>
+
+                    <h2 class="title">
+                      <a href="blogg/aktiebolag-kop-innan-foretagsstart.html">Inköp innan företagsstart – Aktiebolag</a>
+                    </h2>
+
+                    <div class="d-flex align-items-center">
+                      <img src="/assets/img/profile.webp" alt="author" class="img-fluid post-author-img flex-shrink-0">
+                      <div class="post-meta">
+                        <p class="post-author">Ali Sherifi</p>
+                        <p class="post-date">
+                          <time datetime="2023-10-16">Okt 16, 2023</time>
+                        </p>
+                      </div>
+                    </div>
+
+                  </article>
+                </div><!-- End post list item -->
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12 blog-card" >
+                  <article>
+
+                    <div class="post-img">
+                      <img src="/assets/img/blog/inköp.webp" alt="avläsa rapport" class="img-fluid">
+                    </div>
+
+                    <p class="post-category">Avdrag Enskild Firma</p>
+
+                    <h2 class="title">
+                      <a href="blogg/aktiebolag-kop-innan-foretagsstart.html">Inköp innan företagsstart – Enskild Firma</a>
+                    </h2>
+
+                    <div class="d-flex align-items-center">
+                      <img src="/assets/img/profile.webp" alt="author" class="img-fluid post-author-img flex-shrink-0">
+                      <div class="post-meta">
+                        <p class="post-author">Ali Sherifi</p>
+                        <p class="post-date">
+                          <time datetime="2023-10-03">Okt 3, 2023</time>
+                        </p>
+                      </div>
+                    </div>
+
+                  </article>
+                </div><!-- End post list item -->
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12 blog-card" >
+                  <article>
+
+                    <div class="post-img">
+                      <img src="/assets/img/blog/kortköp.webp" alt="kortköp" class="img-fluid">
+                    </div>
+
+                    <p class="post-category">Moms</p>
+
+                    <h2 class="title">
+                      <a href="blogg/moms.html">Moms – en guide för företagare</a>
+                    </h2>
+
+                    <div class="d-flex align-items-center">
+                      <img src="/assets/img/profile.webp" alt="author" class="img-fluid post-author-img flex-shrink-0">
+                      <div class="post-meta">
+                        <p class="post-author">Ali Sherifi</p>
+                        <p class="post-date">
+                          <time datetime="2023-09-26">Sep 26, 2023</time>
+                        </p>
+                      </div>
+                    </div>
+
+                  </article>
+                </div><!-- End post list item -->
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12 blog-card" >
+                  <article>
+
+                    <div class="post-img">
+                      <img src="/assets/img/blog/räkenskapsår.webp" alt="räkenskapsår" class="img-fluid">
+                    </div>
+
+                    <p class="post-category">Företag</p>
+
+                    <h2 class="title">
+                      <a href="blogg/rakenskapsar.html">Räkenskapsår – Val och vägledning</a>
+                    </h2>
+
+                    <div class="d-flex align-items-center">
+                      <img src="/assets/img/profile.webp" alt="author" class="img-fluid post-author-img flex-shrink-0">
+                      <div class="post-meta">
+                        <p class="post-author">Ali Sherifi</p>
+                        <p class="post-date">
+                          <time datetime="2023-09-18">Sep 18, 2023</time>
+                        </p>
+                      </div>
+                    </div>
+
+                  </article>
+                </div><!-- End post list item -->
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12 blog-card" >
+                  <article>
+
+                    <div class="post-img">
+                      <img src="/assets/img/blog/scb.webp" alt="ssb sni sökning" class="img-fluid">
+                    </div>
+
+                    <p class="post-category">Företag</p>
+
+                    <h2 class="title">
+                      <a href="blogg/sni-kod.html">SNI kod</a>
+                    </h2>
+
+                    <div class="d-flex align-items-center">
+                      <img src="/assets/img/profile.webp" alt="author" class="img-fluid post-author-img flex-shrink-0">
+                      <div class="post-meta">
+                        <p class="post-author">Ali Sherifi</p>
+                        <p class="post-date">
+                          <time datetime="2023-09-05">Sep 5, 2023</time>
+                        </p>
+                      </div>
+                    </div>
+
+                  </article>
+                </div><!-- End post list item -->
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12 blog-card" >
+                  <article>
+
+                    <div class="post-img">
+                      <img src="/assets/img/blog/inkomstdeklaration.webp" alt="preliminär inkomstdeklaration blankett" class="img-fluid">
+                    </div>
+
+                    <p class="post-category">Företag</p>
+
+                    <h2 class="title">
+                      <a href="blogg/preliminar-inkomstdeklaration.html">Preliminär inkomstdeklaration och preliminär skatt</a>
+                    </h2>
+
+                    <div class="d-flex align-items-center">
+                      <img src="/assets/img/profile.webp" alt="author" class="img-fluid post-author-img flex-shrink-0">
+                      <div class="post-meta">
+                        <p class="post-author">Ali Sherifi</p>
+                        <p class="post-date">
+                          <time datetime="2023-08-30">Aug 30, 2023</time>
+                        </p>
+                      </div>
+                    </div>
+
+                  </article>
+                </div><!-- End post list item -->
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12 blog-card" >
+                  <article>
+
+                    <div class="post-img">
+                      <img src="/assets/img/blog/handshake.webp" alt="handskakning" class="img-fluid">
+                    </div>
+
+                    <p class="post-category">Företag</p>
+
+                    <h2 class="title">
+                      <a href="blogg/f-skatt.html">F-skatt - vad innebär det?</a>
+                    </h2>
+
+                    <div class="d-flex align-items-center">
+                      <img src="/assets/img/profile.webp" alt="author" class="img-fluid post-author-img flex-shrink-0">
+                      <div class="post-meta">
+                        <p class="post-author">Ali Sherifi</p>
+                        <p class="post-date">
+                          <time datetime="2023-08-17">Aug 17, 2023</time>
+                        </p>
+                      </div>
+                    </div>
+
+                  </article>
+                </div><!-- End post list item -->
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12 blog-card" >
+                  <article>
+
+                    <div class="post-img">
+                      <img src="/assets/img/blog/sign.webp" alt="sign" class="img-fluid">
+                    </div>
+
+                    <p class="post-category">Redovisning</p>
+
+                    <h2 class="title">
+                      <a href="blogg/faktureringsmetoden-eller-kontantmetoden.html">Bokföringsmetod: faktureringsmetoden eller kontantmetoden?</a>
+                    </h2>
+
+                    <div class="d-flex align-items-center">
+                      <img src="/assets/img/profile.webp" alt="author" class="img-fluid post-author-img flex-shrink-0">
+                      <div class="post-meta">
+                        <p class="post-author">Ali Sherifi</p>
+                        <p class="post-date">
+                          <time datetime="2023-08-10">Aug 10, 2023</time>
+                        </p>
+                      </div>
+                    </div>
+
+                  </article>
+                </div><!-- End post list item -->
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12 blog-card" >
+                  <article>
+
+                    <div class="post-img">
+                      <img src="/assets/img/blog/blogimg.webp" alt="business-image" class="img-fluid">
+                    </div>
+
+                    <p class="post-category">Företag</p>
+
+                    <h2 class="title">
+                      <a href="blogg/aktiebolag-eller-enskild-firma.html">Starta eget företag – aktiebolag eller enskild firma?</a>
+                    </h2>
+
+                    <div class="d-flex align-items-center">
+                      <img src="/assets/img/profile.webp" alt="author" class="img-fluid post-author-img flex-shrink-0">
+                      <div class="post-meta">
+                        <p class="post-author">Ali Sherifi</p>
+                        <p class="post-date">
+                          <time datetime="2023-08-03">Aug 3, 2023</time>
+                        </p>
+                      </div>
+                    </div>
+
+                  </article>
+                </div><!-- End post list item -->
+
+
+              </div>
+            </div>
+          
+          </section><!-- /Blog Posts Section -->
+
+          <!-- Blog Pagination Section -->
+          <nav>
+            <ul class="pagination justify-content-center" id="pagination">
+              
+            </ul>
+          </nav>         
+        </div>
+      </div>
+      <!-- Pagination Section -->
+      <div class="row">
+        <div class="col-lg-12">
+          <nav aria-label="Page navigation">
+            <ul class="pagination justify-content-center align-items-center" id="pagination-container">
+              <!-- Pagination items will be generated dynamically here -->
+            </ul>
+          </nav>
+        </div>
+      </div>
     </div>
-    
+  </main>
 
-    <div class="blog-section">
-      <h2>Artiklar</h2>
-      <div class="articles">
-        <div class="article-card">
-          <a class="card-link" href="artiklar/slanga-pappersdokument.html">
-            <img src="img/blog-img/kvitto.webp" alt="kvitto">
-            <h2 class="article-title">Nu slipper du som företagare att spara kvitton och pappersfakturor</h2>
-            <p class="read-more">Läs mer</p>
-          </a>
-        </div>
-        <div class="article-card">
-          <a class="card-link" href="artiklar/investera-privat-eller-via-aktiebolag.html">
-            <img src="img/blog-img/omx.webp" alt="börsutveckling OMX">
-            <h2 class="article-title">Investera på börsen privat eller via aktiebolaget?</h2>
-            <p class="read-more">Läs mer</p>
-          </a>
-        </div>
-        <div class="article-card">
-          <a class="card-link" href="artiklar/ne-bilaga.html">
-            <img src="img/blog-img/ne-bilaga.webp" alt="bokslut">
-            <h2 class="article-title">NE-bilaga - Enskild firma</h2>
-            <p class="read-more">Läs mer</p>
-          </a>
-        </div>
-        <div class="article-card">
-          <a class="card-link" href="artiklar/bokslut.html">
-            <img src="img/blog-img/bokslut.webp" alt="bokslut">
-            <h2 class="article-title">Bokslut - avsluta bokföringen på rätt sätt</h2>
-            <p class="read-more">Läs mer</p>
-          </a>
-        </div>
-        <div class="article-card">
-          <a class="card-link" href="artiklar/julbord-och-julfest-avdragsgillt-2023.html">
-            <img src="img/blog-img/julbord.webp" alt="julbord och julfest">
-            <h2 class="article-title">Julbord och julfest avdragsgillt 2023</h2>
-            <p class="read-more">Läs mer</p>
-          </a>
-        </div>
-        <div class="article-card">
-          <a class="card-link" href="artiklar/julgava-till-anstallda-och-kunder-2023.html">
-            <img src="img/blog-img/julgåva.webp" alt="julgåva">
-            <h2 class="article-title">Julgåva till anställda och kunder 2023</h2>
-            <p class="read-more">Läs mer</p>
-          </a>
-        </div>
-        <div class="article-card">
-          <a class="card-link" href="artiklar/kassaregister.html">
-            <img src="img/blog-img/cash-register.webp" alt="kassaregister">
-            <h2 class="article-title">Kassaregister - ett krav?</h2>
-            <p class="read-more">Läs mer</p>
-          </a>
-        </div>
-        <div class="article-card">
-          <a class="card-link" href="artiklar/aktiebolag-kop-innan-foretagsstart.html">
-            <img src="img/blog-img/inköp-aktiebolag.webp" alt="inköp">
-            <h2 class="article-title">Aktiebolag - Inköp innan företagsstart</h2>
-            <p class="read-more">Läs mer</p>
-          </a>
-        </div>
-        <div class="article-card">
-          <a class="card-link" href="artiklar/enskild-firma-kop-innan-foretagsstart.html">
-            <img src="img/blog-img/inköp.webp" alt="inköp">
-            <h2 class="article-title">Enskild firma - Inköp innan företagsstart</h2>
-            <p class="read-more">Läs mer</p>
-          </a>
-        </div>
-        <div class="article-card">
-          <a class="card-link" href="artiklar/moms.html">
-            <img src="img/blog-img/kortköp.webp" alt="moms">
-            <h2 class="article-title">Moms - en guide för företagare</h2>
-            <p class="read-more">Läs mer</p>
-          </a>
-        </div>
-        <div class="article-card">
-          <a class="card-link" href="artiklar/rakenskapsar.html">
-            <img src="img/blog-img/räkenskapsår.webp" alt="val av räkenskapsår">
-            <h2 class="article-title">Räkenskapsår – val och vägledning</h2>
-            <p class="read-more">Läs mer</p>
-          </a>
-        </div>
-        <div class="article-card">
-          <a class="card-link" href="artiklar/sni-kod.html">
-            <img src="img/blog-img/scb.webp" alt="sökning på sni kod">
-            <h2 class="article-title">Välj rätt SNI-kod</h2>
-            <p class="read-more">Läs mer</p>
-          </a>
-        </div>
-        <div class="article-card">
-          <a class="card-link" href="artiklar/preliminar-inkomstdeklaration.html">
-            <img src="img/blog-img/inkomstdeklaration.webp" alt="blankett på bord">
-            <h2 class="article-title">Preliminär inkomstdeklaration och preliminär skatt</h2>
-            <p class="read-more">Läs mer</p>
-          </a>
-        </div>
-        <div class="article-card">
-          <a class="card-link" href="artiklar/f-skatt.html">
-            <img src="img/blog-img/handshake.webp" alt="handshake">
-            <h2 class="article-title">F-skatt - vad innebär det?</h2>
-            <p class="read-more">Läs mer</p>
-          </a>
-        </div>
-        <div class="article-card">
-          <a class="card-link" href="artiklar/faktureringsmetoden-eller-kontantmetoden.html">
-            <img src="img/blog-img/sign.webp" alt="sign-image">
-            <h2 class="article-title">Bokföringsmetod: faktureringsmetoden eller kontantmetoden?</h2>
-            <p class="read-more">Läs mer</p>
-          </a>
-        </div>
-        <div class="article-card">
-          <a class="card-link" href="artiklar/aktiebolag-eller-enskild-firma.html">
-            <img src="img/blog-img/blogimg.webp" alt="business-image">
-            <h2 class="article-title">Starta eget företag – aktiebolag eller enskild firma?</h2>
-            <p class="read-more">Läs mer</p>
-          </a>
-        </div>
+  <footer id="footer" class="footer light-background">
 
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-about">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <span class="sitename">DIGITALBOK</span>
+            </a>
+            <p>Redovisningsbyrå som hanterar din bokföring digitalt. Vi gör det enkelt för företagare. </p>
+            <div class="social-links d-flex mt-4">
+              <a href="https://www.linkedin.com/company/digitalbok/posts/?feedView=all" target="_blank"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Användbara länkar</h4>
+            <ul>
+              <li><a href="index.html">Hem</a></li>
+              <li><a href="om-oss.html">Om oss</a></li>
+              <li><a href="avdrag.html">Avdrag</a></li>
+              <li><a href="blogg.html">Blogg</a></li>
+              <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Digitalbok</h4>
+            <ul>
+              <p>Registrerad för F-Skatt</p>
+              <p>Momsregistrerad</p>
+              <li><a href="legal/policy.html">Allmäna villkor</a></li>
+              <li><a href="legal/policy.html">Integritetspolicy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+            <h4>Kontakta oss</h4>
+            <p>Åbroddsvägen 45</p>
+            <p>165 70 Stockholm</p>
+            <p class="mt-4"><strong>Telefon:</strong> <a href="tel:010-6410293">010-641 02 93</a></p>
+            <p><strong>E-post:</strong> <a href="mailto:info@digitalbok.se">info@digitalbok.se</a></p>
+          </div>
+
+        </div>
       </div>
-
-      
-
     </div>
 
-    
-    
-    
-
-
-
-
-
-
-
-  </div>
-
-  <div class="cookie-banner">
-    <p>Vi använder cookies för att förbättra din upplevelse på vår webbplats. Genom att fortsätta använda vår webbplats
-      accepterar du vår användning av cookies. Läs vår <a href="legal/policy.html">cookiepolicy</a> för att få mer information
-      om cookies och hur vi använder dem.</p>
-    <button class="cookie-accept-btn">Jag accepterar</button>
-  </div>
-
-  <footer>
-    <div class="footer-container">
-      <div class="footer-item">
-        <h3>Digitalbok</h3>
-        <ul>
-          <li>Registrerad för F-Skatt</li>
-          <li>Momsregistrerat</li>
-        </ul>
-      </div>
-
-      <div class="footer-item">
-        <h3>Policy</h3>
-        <ul>
-          <li><a href="legal/policy.html">Allmänna villkor</a></li>
-          <li><a href="legal/policy.html">Intergritetspolicy</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-item">
-        <h3>Kontakt</h3>
-        <ul>
-          <li><a href="mailto:info@digitalbok.se">info@digitalbok.se</a></li>
-          <li><a href="tel:+46736688727">073 66 88 727</a></li>
-        </ul>
-      </div>
-
+    <div class="container copyright text-center">
+      <p>© <span>2024,</span> Digitalbok.</p>
     </div>
-    <p class="copyright">&copy; 2024, Digitalbok.</p>
+
   </footer>
 
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
+  <!-- Preloader -->
+  <div id="preloader"></div>
+<style>
+  .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .card {
+            margin: 10px;
+            width: 300px;
+        }
+        .hidden {
+            display: none;
+        }
+</style>
+  <!-- Vendor JS Files -->
+  <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/vendor/php-email-form/validate.js"></script>
+  <script src="/assets/vendor/aos/aos.js"></script>
+  <script src="/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="/assets/js/main.js"></script>
+
+  <!-- jquery and Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <script src="/assets/js/pagination.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
