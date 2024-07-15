@@ -886,10 +886,12 @@ section,
 
 .why-us .swiper-button-prev {
   left: 80px;
+  display: none;
 }
 
 .why-us .swiper-button-next {
   right: 80px;
+  display: none;
 }
 
 .why-us .swiper-pagination {
