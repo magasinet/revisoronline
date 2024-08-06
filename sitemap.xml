@@ -4,237 +4,317 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
 <url>
   <loc>https://digitalbok.se/</loc>
-  <lastmod>2024-07-15T19:00:35+00:00</lastmod>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://digitalbok.se/index.html</loc>
-  <lastmod>2024-07-15T19:00:35+00:00</lastmod>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://digitalbok.se/om-oss.html</loc>
-  <lastmod>2024-07-15T19:00:35+00:00</lastmod>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://digitalbok.se/vara-tjanster.html</loc>
-  <lastmod>2024-07-15T19:00:35+00:00</lastmod>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://digitalbok.se/priser.html</loc>
-  <lastmod>2024-07-15T19:00:35+00:00</lastmod>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://digitalbok.se/avdrag.html</loc>
-  <lastmod>2024-07-15T19:00:35+00:00</lastmod>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://digitalbok.se/blogg.html</loc>
-  <lastmod>2024-07-15T19:00:35+00:00</lastmod>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://digitalbok.se/kontakt.html</loc>
-  <lastmod>2024-07-15T19:00:35+00:00</lastmod>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://digitalbok.se/en/index.html</loc>
-  <lastmod>2024-07-15T19:00:35+00:00</lastmod>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://digitalbok.se/blogg/slanga-pappersdokument.html</loc>
-  <lastmod>2024-07-15T19:00:35+00:00</lastmod>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://digitalbok.se/blogg/investera-privat-eller-via-aktiebolag.html</loc>
-  <lastmod>2024-07-15T19:00:35+00:00</lastmod>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://digitalbok.se/blogg/ne-bilaga.html</loc>
-  <lastmod>2024-07-15T19:00:35+00:00</lastmod>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://digitalbok.se/blogg/bokslut.html</loc>
-  <lastmod>2024-07-15T19:00:35+00:00</lastmod>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://digitalbok.se/legal/policy.html</loc>
-  <lastmod>2024-07-15T19:00:35+00:00</lastmod>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://digitalbok.se/avdrag/bilkostnader.html</loc>
-  <lastmod>2024-07-15T19:00:35+00:00</lastmod>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://digitalbok.se/avdrag/elektronik.html</loc>
-  <lastmod>2024-07-15T19:00:35+00:00</lastmod>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://digitalbok.se/avdrag/finansiella-kostnader.html</loc>
-  <lastmod>2024-07-15T19:00:35+00:00</lastmod>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://digitalbok.se/avdrag/lokal.html</loc>
-  <lastmod>2024-07-15T19:00:35+00:00</lastmod>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://digitalbok.se/avdrag/material.html</loc>
-  <lastmod>2024-07-15T19:00:35+00:00</lastmod>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://digitalbok.se/avdrag/representation.html</loc>
-  <lastmod>2024-07-15T19:00:35+00:00</lastmod>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://digitalbok.se/avdrag/personalkostnader.html</loc>
-  <lastmod>2024-07-15T19:00:35+00:00</lastmod>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://digitalbok.se/avdrag/ovriga-kostnader.html</loc>
-  <lastmod>2024-07-15T19:00:35+00:00</lastmod>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://digitalbok.se/blogg/julbord-och-julfest-avdrag.html</loc>
-  <lastmod>2024-07-15T19:00:35+00:00</lastmod>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://digitalbok.se/blogg/julgava-till-anstallda-och-kunder-2023.html</loc>
-  <lastmod>2024-07-15T19:00:35+00:00</lastmod>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://digitalbok.se/blogg/kassaregister.html</loc>
-  <lastmod>2024-07-15T19:00:35+00:00</lastmod>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://digitalbok.se/blogg/aktiebolag-kop-innan-foretagsstart.html</loc>
-  <lastmod>2024-07-15T19:00:35+00:00</lastmod>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://digitalbok.se/blogg/moms.html</loc>
-  <lastmod>2024-07-15T19:00:35+00:00</lastmod>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://digitalbok.se/blogg/rakenskapsar.html</loc>
-  <lastmod>2024-07-15T19:00:35+00:00</lastmod>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://digitalbok.se/blogg/sni-kod.html</loc>
-  <lastmod>2024-07-15T19:00:35+00:00</lastmod>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://digitalbok.se/blogg/preliminar-inkomstdeklaration.html</loc>
-  <lastmod>2024-07-15T19:00:35+00:00</lastmod>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://digitalbok.se/blogg/f-skatt.html</loc>
-  <lastmod>2024-07-15T19:00:35+00:00</lastmod>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://digitalbok.se/blogg/faktureringsmetoden-eller-kontantmetoden.html</loc>
-  <lastmod>2024-07-15T19:00:35+00:00</lastmod>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://digitalbok.se/blogg/aktiebolag-eller-enskild-firma.html</loc>
-  <lastmod>2024-07-15T19:00:35+00:00</lastmod>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://digitalbok.se/en/about.html</loc>
-  <lastmod>2024-07-15T19:00:35+00:00</lastmod>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://digitalbok.se/en/services.html</loc>
-  <lastmod>2024-07-15T19:00:35+00:00</lastmod>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://digitalbok.se/en/prices.html</loc>
-  <lastmod>2024-07-15T19:00:35+00:00</lastmod>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://digitalbok.se/en/deduction.html</loc>
-  <lastmod>2024-07-15T19:00:35+00:00</lastmod>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://digitalbok.se/en/blog.html</loc>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://digitalbok.se/en/contact.html</loc>
-  <lastmod>2024-07-15T19:00:35+00:00</lastmod>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://digitalbok.se/en/blog/discard-paper-documents.html</loc>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://digitalbok.se/en/blog/investing-privately-or-through-limited-company.html</loc>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://digitalbok.se/en/blog/ne-bilaga.html</loc>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://digitalbok.se/en/blog/final-accounts.html</loc>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://digitalbok.se/en/deduction/car-expenses.html</loc>
-  <lastmod>2024-07-15T19:00:35+00:00</lastmod>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://digitalbok.se/en/deduction/electronics.html</loc>
-  <lastmod>2024-07-15T19:00:35+00:00</lastmod>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://digitalbok.se/en/deduction/financial-costs.html</loc>
-  <lastmod>2024-07-15T19:00:35+00:00</lastmod>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://digitalbok.se/en/deduction/material-costs.html</loc>
-  <lastmod>2024-07-15T19:00:35+00:00</lastmod>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://digitalbok.se/en/deduction/rent-costs.html</loc>
-  <lastmod>2024-07-15T19:00:35+00:00</lastmod>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://digitalbok.se/en/deduction/representation.html</loc>
-  <lastmod>2024-07-15T19:00:35+00:00</lastmod>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://digitalbok.se/en/deduction/staff-costs.html</loc>
-  <lastmod>2024-07-15T19:00:35+00:00</lastmod>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://digitalbok.se/en/deduction/other-costs.html</loc>
-  <lastmod>2024-07-15T19:00:35+00:00</lastmod>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://digitalbok.se/en/blog/christmas-dinner-and-party-deductible-2023.html</loc>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://digitalbok.se/en/blog/christmas-gifts-for-employees-and-clients-2023.html</loc>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://digitalbok.se/en/blog/cash-register-requirements.html</loc>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://digitalbok.se/en/blog/purchases-before-business-start-limited-company.html</loc>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://digitalbok.se/en/blog/purchases-before-business-start-sole-trader.html</loc>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://digitalbok.se/en/blog/vat-guide.html</loc>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://digitalbok.se/en/blog/fiscal-year.html</loc>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://digitalbok.se/en/blog/sni-code.html</loc>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://digitalbok.se/en/blog/preliminary-income-declaration.html</loc>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://digitalbok.se/en/blog/f-tax.html</loc>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://digitalbok.se/en/blog/limited-company-vs-sole-trader.html</loc>
+  <lastmod>2024-08-06T22:12:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 
