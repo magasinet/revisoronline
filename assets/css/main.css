@@ -1795,6 +1795,7 @@ section,
 
 .contact .mail-form input[type=text],
 .contact .mail-form input[type=email],
+.contact .mail-form input[type=tel],
 .contact .mail-form textarea {
   font-size: 14px;
   padding: 10px 15px;
@@ -1807,12 +1808,14 @@ section,
 
 .contact .mail-form input[type=text]:focus,
 .contact .mail-form input[type=email]:focus,
+.contact .mail-form input[type=tel]:focus,
 .contact .mail-form textarea:focus {
   border-color: var(--accent-color);
 }
 
 .contact .mail-form input[type=text]::placeholder,
 .contact .mail-form input[type=email]::placeholder,
+.contact .mail-form input[type=tel]::placeholder,
 .contact .mail-form textarea::placeholder {
   color: color-mix(in srgb, var(--default-color), transparent 70%);
 }
