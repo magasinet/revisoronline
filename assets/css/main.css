@@ -3103,3 +3103,56 @@ font-size: 20px
       left: 0%;
   }
 }
+
+
+.cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f4f4f4;
+  color: #333;
+  text-align: center;
+  padding: 10px 0;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.cookie-banner p {
+  margin: 0 20px;
+  font-size: 16px;
+}
+
+.close-btn {
+  padding: 10px 20px;
+  background-color: #0084ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .cookie-banner {
+      flex-direction: column;
+      padding: 20px 10px;
+  }
+
+  .cookie-banner p {
+      font-size: 14px;
+      margin: 0 10px 10px 10px;
+      text-align: center;
+  }
+
+  .close-btn {
+      width: auto;
+  }
+}
