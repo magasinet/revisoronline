@@ -3104,7 +3104,7 @@ font-size: 20px
   }
 }
 
-
+/*
 .cookie-banner {
   position: fixed;
   bottom: 0;
@@ -3139,7 +3139,7 @@ font-size: 20px
   background-color: #0056b3;
 }
 
-/* Responsive adjustments */
+/* Responsive adjustments 
 @media (max-width: 768px) {
   .cookie-banner {
       flex-direction: column;
@@ -3156,3 +3156,4 @@ font-size: 20px
       width: auto;
   }
 }
+*/
