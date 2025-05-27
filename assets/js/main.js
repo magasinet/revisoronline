@@ -173,7 +173,7 @@
   });
 
 
-
+/*
 // Set a cookie
 function setCookie(name, value, days) {
   var expires = "";
@@ -209,4 +209,4 @@ document.querySelector('.close-btn').addEventListener('click', function() {
   setCookie('cookieAccepted', 'true', 7); // Set cookie for 7 days
   document.querySelector('.cookie-banner').style.display = 'none';
 });
-
+*/
