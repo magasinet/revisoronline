@@ -27,7 +27,8 @@
   <title>Se vilka avdrag du kan göra på ditt företag | Digitalbok</title>
   <meta content="På denna sida hittar du information om olika kostnader som kan vara avdraglaration. Vi har samlat länkar där du kan läsa mer om vilka kostnader som kan vara avdrag regler som gäller. Oavsett om det gäller resor i tjänsten, hemmakontor eller andra företagsrelaterade kostnader så kan du hitta användbar information här." name="description">
   <!--<meta content="" name="keywords"> -->
- <meta http-equiv="Content-Security-Policy"
+ <!--nya csp som funkar 2026-07-23-->
+  <meta http-equiv="Content-Security-Policy"
   content="default-src 'self';
 
     script-src 'self' 'unsafe-inline'
@@ -56,10 +57,12 @@
       https://www.google.com
       https://www.google.se
       https://www.googleadservices.com
-      https://www.gstatic.com;
+      https://www.gstatic.com
+      https://fonts.gstatic.com;
 
     style-src 'self' 'unsafe-inline'
-      https://fonts.googleapis.com;
+      https://fonts.googleapis.com
+      https://www.googletagmanager.com;
 
     font-src 'self'
       https://fonts.gstatic.com
@@ -67,6 +70,7 @@
 
     connect-src 'self'
       https://cdn-cookieyes.com
+      https://log.cookieyes.com
       https://www.google-analytics.com
       https://*.google-analytics.com
       https://*.analytics.google.com
@@ -74,6 +78,7 @@
       https://*.g.doubleclick.net
       https://*.google.com
       https://www.google.com
+      https://www.google.se
       https://www.googleadservices.com
       https://www.gstatic.com
       https://ad.doubleclick.net

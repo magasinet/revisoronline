@@ -26,7 +26,8 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>Våra tjänster | Digitalbok</title>
   <meta content="Vi erbjuder omfattande redovisningstjänster inklusive löpande bokföring, lönehantering, deklarering, rapportering, årsavslut och rådgivning. Våra digitala lösningar säkerställer noggrannhet och effektivitet, vilket hjälper dig att fokusera på att växa ditt företag." name="description">
-<meta http-equiv="Content-Security-Policy"
+<!--nya csp som funkar 2026-07-23-->
+  <meta http-equiv="Content-Security-Policy"
   content="default-src 'self';
 
     script-src 'self' 'unsafe-inline'
@@ -55,10 +56,12 @@
       https://www.google.com
       https://www.google.se
       https://www.googleadservices.com
-      https://www.gstatic.com;
+      https://www.gstatic.com
+      https://fonts.gstatic.com;
 
     style-src 'self' 'unsafe-inline'
-      https://fonts.googleapis.com;
+      https://fonts.googleapis.com
+      https://www.googletagmanager.com;
 
     font-src 'self'
       https://fonts.gstatic.com
@@ -66,6 +69,7 @@
 
     connect-src 'self'
       https://cdn-cookieyes.com
+      https://log.cookieyes.com
       https://www.google-analytics.com
       https://*.google-analytics.com
       https://*.analytics.google.com
@@ -73,6 +77,7 @@
       https://*.g.doubleclick.net
       https://*.google.com
       https://www.google.com
+      https://www.google.se
       https://www.googleadservices.com
       https://www.gstatic.com
       https://ad.doubleclick.net

@@ -28,7 +28,8 @@
   <meta content="We are your digital accounting firm specializing in simplifying financial management for small and medium-sized businesses. With expertise in digital accounting, tax advisory, and financial consulting, we use modern technology to tailor solutions that meet your business needs. Contact us today to streamline your business administration and focus on growth." name="description">
   <meta content="" name="keywords">
   <!-- <meta content="" name="keywords"> -->
-<meta http-equiv="Content-Security-Policy"
+<!--nya csp som funkar 2026-07-23-->
+  <meta http-equiv="Content-Security-Policy"
   content="default-src 'self';
 
     script-src 'self' 'unsafe-inline'
@@ -57,10 +58,12 @@
       https://www.google.com
       https://www.google.se
       https://www.googleadservices.com
-      https://www.gstatic.com;
+      https://www.gstatic.com
+      https://fonts.gstatic.com;
 
     style-src 'self' 'unsafe-inline'
-      https://fonts.googleapis.com;
+      https://fonts.googleapis.com
+      https://www.googletagmanager.com;
 
     font-src 'self'
       https://fonts.gstatic.com
@@ -68,6 +71,7 @@
 
     connect-src 'self'
       https://cdn-cookieyes.com
+      https://log.cookieyes.com
       https://www.google-analytics.com
       https://*.google-analytics.com
       https://*.analytics.google.com
@@ -75,6 +79,7 @@
       https://*.g.doubleclick.net
       https://*.google.com
       https://www.google.com
+      https://www.google.se
       https://www.googleadservices.com
       https://www.gstatic.com
       https://ad.doubleclick.net
