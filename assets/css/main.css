@@ -3105,6 +3105,8 @@ font-size: 20px
 }
 
 
+/* Offer blog post*/
+
 .pricing .buy-btn,
 .contact-cta-btn {
   color: var(--accent-color);
@@ -3124,6 +3126,56 @@ font-size: 20px
   background: var(--accent-color);
   color: var(--contrast-color);
 }
+
+@media (max-width: 750px) {
+  h1.specific-offer-page {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+  .blog-details .consultant-pricing {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 750px) {
+  h1.specific-offer-page {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+
+  /* Låt endast prissektionen ta tillbaka bloggartikelns 30 px padding */
+  .blog-details .consultant-pricing {
+    width: calc(100% + 60px);
+    margin-left: -30px;
+    margin-right: -30px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  /* Global section-regel använder overflow: clip */
+  .blog-details {
+    overflow: visible;
+  }
+}
+
+@media (max-width: 360px) {
+  .blog-details .consultant-pricing h4 {
+    font-size: 30px;
+  }
+
+  .blog-details .consultant-pricing h4 sup {
+    font-size: 22px;
+  }
+
+  .blog-details .consultant-pricing h4 span {
+    font-size: 16px;
+  }
+}
+
+
+
 
 
 
