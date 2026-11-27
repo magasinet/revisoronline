@@ -152,7 +152,7 @@ h6,
   margin-right: 8px;
 }
 
-.header .logo .sitename {
+.header .logo > :is(h1, :where(.sitename)) {
   font-family: var(--heading-font);
   line-height: 1.2;
   font-size: 30px;
@@ -2526,7 +2526,13 @@ section,
   font-size: 20px;
 }
 
-.pricing :is(h4, :where(.h4)) {
+.pricing .price-amount,
+.alt-pricing .price-amount {
+  margin-top: 0;
+  line-height: 1.2;
+}
+
+.pricing :is(h4, :where(.price-amount)) {
   color: var(--accent-color);
   font-size: 48px;
   font-weight: 400;
@@ -2534,11 +2540,11 @@ section,
   margin-bottom: 0;
 }
 
-.pricing :is(h4, :where(.h4)) sup {
+.pricing :is(h4, :where(.price-amount)) sup {
   font-size: 28px;
 }
 
-.pricing :is(h4, :where(.h4)) span {
+.pricing :is(h4, :where(.price-amount)) span {
   color: color-mix(in srgb, var(--default-color), transparent 50%);
   font-size: 18px;
 }
@@ -2639,7 +2645,7 @@ section,
   font-size: 24px;
 }
 
-.alt-pricing .pricing-item :is(h4, :where(.h4)) {
+.alt-pricing .pricing-item :is(h4, :where(.price-amount)) {
   font-size: 48px;
   color: var(--accent-color);
   font-weight: 400;
@@ -2648,11 +2654,11 @@ section,
   text-align: center;
 }
 
-.alt-pricing .pricing-item :is(h4, :where(.h4)) sup {
+.alt-pricing .pricing-item :is(h4, :where(.price-amount)) sup {
   font-size: 28px;
 }
 
-.alt-pricing .pricing-item :is(h4, :where(.h4)) span {
+.alt-pricing .pricing-item :is(h4, :where(.price-amount)) span {
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   font-size: 18px;
 }
@@ -2712,8 +2718,8 @@ section,
 }
 
 .alt-pricing .featured h3,
-.alt-pricing .featured :is(h4, :where(.h4)),
-.alt-pricing .featured :is(h4, :where(.h4)) span,
+.alt-pricing .featured :is(h4, :where(.price-amount)),
+.alt-pricing .featured :is(h4, :where(.price-amount)) span,
 .alt-pricing .featured ul,
 .alt-pricing .featured ul .na,
 .alt-pricing .featured ul i,
@@ -3166,15 +3172,15 @@ font-size: 20px
 }
 
 @media (max-width: 360px) {
-  .blog-details .consultant-pricing :is(h4, :where(.h4)) {
+  .blog-details .consultant-pricing :is(h4, :where(.price-amount)) {
     font-size: 30px;
   }
 
-  .blog-details .consultant-pricing :is(h4, :where(.h4)) sup {
+  .blog-details .consultant-pricing :is(h4, :where(.price-amount)) sup {
     font-size: 22px;
   }
 
-  .blog-details .consultant-pricing :is(h4, :where(.h4)) span {
+  .blog-details .consultant-pricing :is(h4, :where(.price-amount)) span {
     font-size: 16px;
   }
 }
