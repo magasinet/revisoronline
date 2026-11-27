@@ -70,7 +70,9 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+.h3,
+.h4 {
   color: var(--heading-color);
   font-family: var(--heading-font);
 }
@@ -150,7 +152,9 @@ h6 {
   margin-right: 8px;
 }
 
-.header .logo h1 {
+.header .logo .sitename {
+  font-family: var(--heading-font);
+  line-height: 1.2;
   font-size: 30px;
   margin: 0;
   font-weight: 700;
@@ -459,7 +463,7 @@ h6 {
   background-color: color-mix(in srgb, var(--accent-color) 90%, black 15%);
 }
 
-.footer h4 {
+.footer :is(h4, :where(.h4)) {
   font-size: 16px;
   font-weight: bold;
   position: relative;
@@ -1014,7 +1018,7 @@ section,
   z-index: 3;
 }
 
-.call-to-action h3 {
+.call-to-action :is(h3, :where(.h3)) {
   font-size: 28px;
   font-weight: 700;
   color: var(--default-color);
@@ -1200,7 +1204,7 @@ section,
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
-.about .content h3 {
+.about .content :is(h3, :where(.h3)) {
   font-size: 2rem;
   font-weight: 700;
 }
@@ -1258,7 +1262,7 @@ section,
   padding: 30px;
 }
 
-.service-cards .card-item h4 {
+.service-cards .card-item :is(h4, :where(.h4)) {
   font-weight: 700;
   font-size: 20px;
   margin-bottom: 15px;
@@ -1710,7 +1714,7 @@ section,
   padding: 25px 15px;
 }
 
-.team .team-member .member-info h4 {
+.team .team-member .member-info :is(h4, :where(.h4)) {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 18px;
@@ -1776,7 +1780,7 @@ section,
   margin-right: 15px;
 }
 
-.contact .info-item h3 {
+.contact .info-item :is(h3, :where(.h3)) {
   padding: 0;
   font-size: 18px;
   font-weight: 700;
@@ -2111,7 +2115,7 @@ section,
   margin-right: 20px;
 }
 
-.blog-author h4 {
+.blog-author :is(h4, :where(.h4)) {
   font-weight: 600;
   font-size: 20px;
   margin-bottom: 0px;
@@ -2521,7 +2525,7 @@ section,
   font-size: 20px;
 }
 
-.pricing h4 {
+.pricing :is(h4, :where(.h4)) {
   color: var(--accent-color);
   font-size: 48px;
   font-weight: 400;
@@ -2529,11 +2533,11 @@ section,
   margin-bottom: 0;
 }
 
-.pricing h4 sup {
+.pricing :is(h4, :where(.h4)) sup {
   font-size: 28px;
 }
 
-.pricing h4 span {
+.pricing :is(h4, :where(.h4)) span {
   color: color-mix(in srgb, var(--default-color), transparent 50%);
   font-size: 18px;
 }
@@ -2634,7 +2638,7 @@ section,
   font-size: 24px;
 }
 
-.alt-pricing .pricing-item h4 {
+.alt-pricing .pricing-item :is(h4, :where(.h4)) {
   font-size: 48px;
   color: var(--accent-color);
   font-weight: 400;
@@ -2643,11 +2647,11 @@ section,
   text-align: center;
 }
 
-.alt-pricing .pricing-item h4 sup {
+.alt-pricing .pricing-item :is(h4, :where(.h4)) sup {
   font-size: 28px;
 }
 
-.alt-pricing .pricing-item h4 span {
+.alt-pricing .pricing-item :is(h4, :where(.h4)) span {
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   font-size: 18px;
 }
@@ -2707,8 +2711,8 @@ section,
 }
 
 .alt-pricing .featured h3,
-.alt-pricing .featured h4,
-.alt-pricing .featured h4 span,
+.alt-pricing .featured :is(h4, :where(.h4)),
+.alt-pricing .featured :is(h4, :where(.h4)) span,
 .alt-pricing .featured ul,
 .alt-pricing .featured ul .na,
 .alt-pricing .featured ul i,
@@ -3161,15 +3165,15 @@ font-size: 20px
 }
 
 @media (max-width: 360px) {
-  .blog-details .consultant-pricing h4 {
+  .blog-details .consultant-pricing :is(h4, :where(.h4)) {
     font-size: 30px;
   }
 
-  .blog-details .consultant-pricing h4 sup {
+  .blog-details .consultant-pricing :is(h4, :where(.h4)) sup {
     font-size: 22px;
   }
 
-  .blog-details .consultant-pricing h4 span {
+  .blog-details .consultant-pricing :is(h4, :where(.h4)) span {
     font-size: 16px;
   }
 }
