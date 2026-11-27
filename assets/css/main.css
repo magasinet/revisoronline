@@ -1263,6 +1263,7 @@ section,
 }
 
 .service-cards .card-item :is(h4, :where(.h4)) {
+  color: inherit;
   font-weight: 700;
   font-size: 20px;
   margin-bottom: 15px;
